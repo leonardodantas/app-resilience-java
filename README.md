@@ -22,6 +22,24 @@ Projeto desenvolvido com o objetivo de explorar e estudar as funcionalidades da 
 - Resilience4j
 - Spring Cloud
 
+###  Iniciando projeto pela primeira vez
+
+```bash
+# Clone este repositório
+git clone https://github.com/leonardodantas/app-resilience-java.git
+
+# Tenha o docker compose instalando, acesse a pasta raiz do projeto e execute o seguinte comando
+docker-compose up --build
+
+# O comando acima ira criar instâncias das seguintes aplicações
+- Mongo
+- Mongo Express
+ 
+# Inicie a aplicação com uma IDE
+
+#Acesse o seguinte endereço no navegador
+http://localhost:8089/swagger-ui/index.html
+```
 
 O Circuit Breaker (Disjuntor) é um padrão de design utilizado em sistemas distribuídos para aumentar a resiliência e a tolerância a falhas. Ele funciona como um mecanismo de proteção que monitora as chamadas entre serviços ou operações, interrompendo temporariamente as requisições a um serviço que está falhando ou apresentando problemas de desempenho.
 
