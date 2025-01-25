@@ -40,11 +40,11 @@ docker-compose up --build
 #Acesse o seguinte endereço no navegador
 http://localhost:8089/swagger-ui/index.html
 ```
-## Resilience4J
+### Resilience4J
 
-O Resilience4j é uma biblioteca leve, baseada em padrões de resiliência, projetada para ajudar a tornar aplicações mais robustas contra falhas transitórias, problemas de desempenho e outros comportamentos inesperados em sistemas distribuídos. Ele foi inspirado no projeto Netflix Hystrix e é frequentemente usado em aplicações Java modernas, especialmente com o Spring Boot.
+O Resilience4j é uma biblioteca baseada em padrões de resiliência, projetada para ajudar a tornar aplicações mais robustas contra falhas transitórias, problemas de desempenho e outros comportamentos inesperados em sistemas distribuídos.
 
-
+### Circuit Breaker
 
 O Circuit Breaker (Disjuntor) é um padrão de design utilizado em sistemas distribuídos para aumentar a resiliência e a tolerância a falhas. Ele funciona como um mecanismo de proteção que monitora as chamadas entre serviços ou operações, interrompendo temporariamente as requisições a um serviço que está falhando ou apresentando problemas de desempenho.
 
