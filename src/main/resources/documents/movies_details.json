@@ -1,0 +1,2355 @@
+[
+  {
+    "id": "1222248",
+    "backdropPath": "/3WnoZw50qIfXsFnKr0LddEh5Jnf.jpg",
+    "budget": 0,
+    "homepage": "",
+    "imdbId": "tt23782584",
+    "originCountry": [
+      "NO"
+    ],
+    "productionCompanies": [
+      {
+        "id": 108394,
+        "logoPath": "/b8tlLQtTvvjRiaB5TcUWqYmX4eN.png",
+        "name": "Motion Blur",
+        "originCountry": "NO"
+      },
+      {
+        "id": 2888,
+        "name": "SF Norge",
+        "originCountry": "NO"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "Norway"
+      }
+    ],
+    "revenue": 3301976,
+    "runtime": 111,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "939243",
+    "backdropPath": "/zOpe0eHsq0A2NvNyBbtT6sj53qV.jpg",
+    "budget": 122000000,
+    "homepage": "https://www.movieid.com/sonic3",
+    "imdbId": "tt18259086",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 4,
+        "logoPath": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "name": "Paramount Pictures",
+        "originCountry": "US"
+      },
+      {
+        "id": 333,
+        "logoPath": "/5xUJfzPZ8jWJUDzYtIeuPO4qPIa.png",
+        "name": "Original Film",
+        "originCountry": "US"
+      },
+      {
+        "id": 77884,
+        "logoPath": "/dP2lxVNctD5Cried0IWVqgrO2o9.png",
+        "name": "Marza Animation Planet",
+        "originCountry": "JP"
+      },
+      {
+        "id": 113750,
+        "logoPath": "/A3QVZ9Ah0yI2d2GiXUFpdlbTgyr.png",
+        "name": "SEGA",
+        "originCountry": "JP"
+      },
+      {
+        "id": 10644,
+        "logoPath": "/ocLZIdYJBppuCt1rhYEb2jbpt5F.png",
+        "name": "Blur Studio",
+        "originCountry": "US"
+      },
+      {
+        "id": 168701,
+        "logoPath": "/vWdZFT4V64CCv12D10m44duQjyg.png",
+        "name": "SEGA of America",
+        "originCountry": "US"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "Japan"
+      },
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 384815196,
+    "runtime": 110,
+    "status": "Released",
+    "tagline": "Nova aventura. Novo rival.",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "762509",
+    "backdropPath": "/oHPoF0Gzu8xwK4CtdXDaWdcuZxZ.jpg",
+    "budget": 200000000,
+    "homepage": "",
+    "imdbId": "tt13186482",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 2,
+        "logoPath": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+        "name": "Walt Disney Pictures",
+        "originCountry": "US"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 539677479,
+    "runtime": 118,
+    "status": "Released",
+    "tagline": "Órfão. Forasteiro. Rei.",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "558449",
+    "backdropPath": "/euYIwmwkmz95mnXvufEmbL6ovhZ.jpg",
+    "budget": 310000000,
+    "homepage": "",
+    "imdbId": "tt9218128",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 4,
+        "logoPath": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "name": "Paramount Pictures",
+        "originCountry": "US"
+      },
+      {
+        "id": 221347,
+        "logoPath": "/6Ry6uNBaa0IbbSs1XYIgX5DkA9r.png",
+        "name": "Scott Free Productions",
+        "originCountry": "US"
+      },
+      {
+        "id": 246486,
+        "name": "Lucy Fisher/Douglas Wick Productions",
+        "originCountry": "US"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 455388841,
+    "runtime": 150,
+    "status": "Released",
+    "tagline": "Um novo legado de rebelião vai começar.",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "912649",
+    "backdropPath": "/vZG7PrX9HmdgL5qfZRjhJsFYEIA.jpg",
+    "budget": 120000000,
+    "homepage": "",
+    "imdbId": "tt16366836",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 5,
+        "logoPath": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "name": "Columbia Pictures",
+        "originCountry": "US"
+      },
+      {
+        "id": 84041,
+        "logoPath": "/nw4kyc29QRpNtFbdsBHkRSFavvt.png",
+        "name": "Pascal Pictures",
+        "originCountry": "US"
+      },
+      {
+        "id": 53462,
+        "logoPath": "/nx8B3Phlcse02w86RW4CJqzCnfL.png",
+        "name": "Matt Tolmach Productions",
+        "originCountry": "US"
+      },
+      {
+        "id": 91797,
+        "name": "Hutch Parker Entertainment",
+        "originCountry": "US"
+      },
+      {
+        "id": 14439,
+        "name": "Arad Productions",
+        "originCountry": "US"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 478103649,
+    "runtime": 110,
+    "status": "Released",
+    "tagline": "Até que a morte os separe.",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1005331",
+    "backdropPath": "/rhc8Mtuo3Kh8CndnlmTNMF8o9pU.jpg",
+    "budget": 47000000,
+    "homepage": "https://www.netflix.com/br/title/81476963",
+    "imdbId": "tt21382296",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 119245,
+        "logoPath": "/6F45uVsKpNYANcWvplyhgIFezFU.png",
+        "name": "Dylan Clark Productions",
+        "originCountry": "US"
+      },
+      {
+        "id": 7,
+        "logoPath": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
+        "name": "DreamWorks Pictures",
+        "originCountry": "US"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 0,
+    "runtime": 119,
+    "status": "Released",
+    "tagline": "Nas festas de fim de ano, milhões de pessoas viajam de avião com segurança. Este Natal será diferente.",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "823219",
+    "backdropPath": "/b3mdmjYTEL70j7nuXATUAD9qgu4.jpg",
+    "budget": 3500000,
+    "homepage": "",
+    "imdbId": "tt4772188",
+    "originCountry": [
+      "LV"
+    ],
+    "productionCompanies": [
+      {
+        "id": 153335,
+        "logoPath": "/bEsO7l12cRGAY25Uqt1a66Ife1U.png",
+        "name": "Dream Well Studio",
+        "originCountry": "LV"
+      },
+      {
+        "id": 12433,
+        "logoPath": "/sKu7Gr83ie8w6waDwYNHMBEaSah.png",
+        "name": "Sacrebleu Productions",
+        "originCountry": "FR"
+      },
+      {
+        "id": 101516,
+        "logoPath": "/q7ynwvgbkht96N8qPFexUW3QFeR.png",
+        "name": "Take Five",
+        "originCountry": "BE"
+      },
+      {
+        "id": 94,
+        "logoPath": "/huC7HqorvUThGIrENrbcHmQVUA0.png",
+        "name": "ARTE France Cinéma",
+        "originCountry": "FR"
+      },
+      {
+        "id": 792,
+        "logoPath": "/cRhBQP1FFNugNxKkO1pUgeD2Rkr.png",
+        "name": "RTBF",
+        "originCountry": "BE"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "Belgium"
+      },
+      {
+        "name": "France"
+      },
+      {
+        "name": "Latvia"
+      }
+    ],
+    "revenue": 6831946,
+    "runtime": 85,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1010581",
+    "backdropPath": "/lntyt4OVDbcxA1l7LtwITbrD3FI.jpg",
+    "budget": 0,
+    "homepage": "",
+    "imdbId": "tt21909764",
+    "originCountry": [
+      "ES"
+    ],
+    "productionCompanies": [
+      {
+        "id": 32485,
+        "logoPath": "/fVXreZkiJTOq1cCi6htSQlPSy7R.png",
+        "name": "Pokeepsie Films",
+        "originCountry": "ES"
+      },
+      {
+        "id": 208240,
+        "logoPath": "/hYREaYiVyoGVP26CbDpAWD3wDRD.png",
+        "name": "Amazon Studios",
+        "originCountry": "ES"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "Spain"
+      }
+    ],
+    "revenue": 0,
+    "runtime": 117,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "839033",
+    "backdropPath": "/ie8OSgIHEl6yQiGJ90dsyBWOpQA.jpg",
+    "budget": 30000000,
+    "homepage": "",
+    "imdbId": "tt14824600",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 12,
+        "logoPath": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+        "name": "New Line Cinema",
+        "originCountry": "US"
+      },
+      {
+        "id": 2785,
+        "logoPath": "/l5zW8jjmQOCx2dFmvnmbYmqoBmL.png",
+        "name": "Warner Bros. Animation",
+        "originCountry": "US"
+      },
+      {
+        "id": 169947,
+        "logoPath": "/sg9CIYwE3UFszpI4jMR4LmayLwc.png",
+        "name": "Sola Entertainment",
+        "originCountry": "JP"
+      },
+      {
+        "id": 194237,
+        "logoPath": "/4b73bKbtAYzTN2s6qWAvKdv0Ewl.png",
+        "name": "Middle-earth Enterprises",
+        "originCountry": "US"
+      },
+      {
+        "id": 11,
+        "logoPath": "/6FAuASQHybRkZUk08p9PzSs9ezM.png",
+        "name": "WingNut Films",
+        "originCountry": "NZ"
+      },
+      {
+        "id": 216687,
+        "name": "Domain Entertainment",
+        "originCountry": "US"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "Japan"
+      },
+      {
+        "name": "New Zealand"
+      },
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 19891554,
+    "runtime": 134,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "970450",
+    "backdropPath": "/fzjH7kt1017R9EckLDmWmH5pGhD.jpg",
+    "budget": 0,
+    "homepage": "",
+    "imdbId": "tt15041836",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 33768,
+        "logoPath": "/f8TDXTNoj4G4eRCKlUpG3KYQj9I.png",
+        "name": "The Solution",
+        "originCountry": "US"
+      },
+      {
+        "id": 24513,
+        "logoPath": "/tW8mCKX6JgFyPAZjszZ3scCTqZk.png",
+        "name": "Pimienta",
+        "originCountry": "PR"
+      },
+      {
+        "id": 207377,
+        "logoPath": "/sWr5TJKSXYXRFGT8BUq6UUCbygo.png",
+        "name": "Monty the Dog Productions",
+        "originCountry": "US"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "Puerto Rico"
+      },
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 1052998,
+    "runtime": 94,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1043905",
+    "backdropPath": "/dWkdmxIkH9y23s9v1PjQFhTGIwo.jpg",
+    "budget": 0,
+    "homepage": "",
+    "imdbId": "tt23872640",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 1020,
+        "logoPath": "/kuUIHNwMec4dwOLghDhhZJzHZTd.png",
+        "name": "Millennium Media",
+        "originCountry": "US"
+      },
+      {
+        "id": 74795,
+        "logoPath": "/vcCcVEglw9nVcYeZf6xZzA4s1O3.png",
+        "name": "Nu Boyana Film Studios",
+        "originCountry": "BG"
+      },
+      {
+        "id": 175297,
+        "name": "I Road Productions",
+        "originCountry": "US"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "Bulgaria"
+      },
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 0,
+    "runtime": 104,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1156593",
+    "backdropPath": "/k24eZq5I3jyz4htPkZCRpnUmBzE.jpg",
+    "budget": 0,
+    "homepage": "",
+    "imdbId": "tt28510079",
+    "originCountry": [
+      "ES",
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 32485,
+        "logoPath": "/fVXreZkiJTOq1cCi6htSQlPSy7R.png",
+        "name": "Pokeepsie Films",
+        "originCountry": "ES"
+      },
+      {
+        "id": 210099,
+        "logoPath": "/d6HwljzlOzxJ4tXlrpRkNZaZMWL.png",
+        "name": "Amazon MGM Studios",
+        "originCountry": "US"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "Spain"
+      },
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 0,
+    "runtime": 120,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1357633",
+    "backdropPath": "/kylozAI9Rf1pp7pZ8nFPK4s1s5n.jpg",
+    "budget": 0,
+    "homepage": "https://sololeveling-anime.net/ReAwakening/",
+    "imdbId": "tt33428606",
+    "originCountry": [
+      "JP"
+    ],
+    "productionCompanies": [
+      {
+        "id": 2883,
+        "logoPath": "/rDYExnBV61jGQnkhVVrPN4Yl7O1.png",
+        "name": "Aniplex",
+        "originCountry": "JP"
+      },
+      {
+        "id": 13113,
+        "logoPath": "/xV5tPYKZhP2Ko9dOh5A3FahuKsx.png",
+        "name": "A-1 Pictures",
+        "originCountry": "JP"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "Japan"
+      }
+    ],
+    "revenue": 4150341,
+    "runtime": 116,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1035048",
+    "backdropPath": "/au3o84ub27qTZiMiEc9UYzN74V3.jpg",
+    "budget": 18000000,
+    "homepage": "",
+    "imdbId": "tt23558280",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 180839,
+        "logoPath": "/v2A9SsZdaWpmZdXPf3I7Ajxn1Pc.png",
+        "name": "Lyrical Media",
+        "originCountry": "US"
+      },
+      {
+        "id": 165538,
+        "name": "Fuller Media",
+        "originCountry": "US"
+      },
+      {
+        "id": 146553,
+        "name": "Inspire Entertainment",
+        "originCountry": "US"
+      },
+      {
+        "id": 242398,
+        "name": "Grinder Monkey",
+        "originCountry": ""
+      },
+      {
+        "id": 242399,
+        "name": "John Glenn Entertainment",
+        "originCountry": ""
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 3300000,
+    "runtime": 95,
+    "status": "Released",
+    "tagline": "Não desista sem lutar.",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1235623",
+    "backdropPath": "/bx6LoGl8L3hwgOCoD2H8JgIu7uC.jpg",
+    "budget": 0,
+    "homepage": "",
+    "imdbId": "tt30972810",
+    "originCountry": [
+      "CN"
+    ],
+    "productionCompanies": [
+      {
+        "id": 172414,
+        "logoPath": "/fNxBFqWr7eWEgNeBDvvCxsSItXx.png",
+        "name": "iQIYI",
+        "originCountry": "CN"
+      },
+      {
+        "id": 131092,
+        "logoPath": "/dtsMvAgTenOlDWnqaa4pEovx6d5.png",
+        "name": "Zhejiang Hengdian Film Production",
+        "originCountry": "CN"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "China"
+      }
+    ],
+    "revenue": 0,
+    "runtime": 90,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "933260",
+    "backdropPath": "/7h6TqPB3ESmjuVbxCxAeB1c9OB1.jpg",
+    "budget": 17500000,
+    "homepage": "https://mubi.com/pt/br/films/the-substance",
+    "imdbId": "tt17526714",
+    "originCountry": [
+      "GB",
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 10163,
+        "logoPath": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+        "name": "Working Title Films",
+        "originCountry": "GB"
+      },
+      {
+        "id": 233939,
+        "name": "Blacksmith",
+        "originCountry": "FR"
+      },
+      {
+        "id": 221513,
+        "logoPath": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+        "name": "Working Title Films",
+        "originCountry": "US"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "France"
+      },
+      {
+        "name": "United Kingdom"
+      },
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 79077496,
+    "runtime": 140,
+    "status": "Released",
+    "tagline": "Se você seguir as instruções, o que pode dar errado?",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "402431",
+    "backdropPath": "/uKb22E0nlzr914bA9KyA5CVCOlV.jpg",
+    "budget": 150000000,
+    "homepage": "",
+    "imdbId": "tt1262426",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 33,
+        "logoPath": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "name": "Universal Pictures",
+        "originCountry": "US"
+      },
+      {
+        "id": 2527,
+        "logoPath": "/osO7TGmlRMistSQ5JZusPhbKUHk.png",
+        "name": "Marc Platt Productions",
+        "originCountry": "US"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 697615060,
+    "runtime": 161,
+    "status": "Released",
+    "tagline": "Todos merecem a chance de voar.",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1241982",
+    "backdropPath": "/vYqt6kb4lcF8wwqsMMaULkP9OEn.jpg",
+    "budget": 150000000,
+    "homepage": "",
+    "imdbId": "tt13622970",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 2,
+        "logoPath": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+        "name": "Walt Disney Pictures",
+        "originCountry": "US"
+      },
+      {
+        "id": 6125,
+        "logoPath": "/tzsMJBJZINu7GHzrpYzpReWhh66.png",
+        "name": "Walt Disney Animation Studios",
+        "originCountry": "US"
+      },
+      {
+        "id": 158526,
+        "logoPath": "/tzsMJBJZINu7GHzrpYzpReWhh66.png",
+        "name": "Walt Disney Animation Studios",
+        "originCountry": "CA"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "Canada"
+      },
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 989755208,
+    "runtime": 100,
+    "status": "Released",
+    "tagline": "Encontre o seu caminho. Encontre a sua força. Encontre a sua vocação.",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "845781",
+    "backdropPath": "/cjEcqdRdPQJhYre3HUAc5538Gk8.jpg",
+    "budget": 250000000,
+    "homepage": "",
+    "imdbId": "tt14948432",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 73669,
+        "logoPath": "/pZ1sOLrUxvCvW1jODdCFgU6RxUA.png",
+        "name": "Seven Bucks Productions",
+        "originCountry": "US"
+      },
+      {
+        "id": 92693,
+        "logoPath": "/rMKRo8kFoJKxZr0MFEVRoZ8b54E.png",
+        "name": "The Detective Agency",
+        "originCountry": "US"
+      },
+      {
+        "id": 25998,
+        "name": "Chris Morgan Productions",
+        "originCountry": "US"
+      },
+      {
+        "id": 21,
+        "logoPath": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
+        "name": "Metro-Goldwyn-Mayer",
+        "originCountry": "US"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 185700759,
+    "runtime": 124,
+    "status": "Released",
+    "tagline": "A missão de salvar o Natal começou.",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "539972",
+    "backdropPath": "/iFsWkmAcu1QcMJ2LhqN8bU0Oj7.jpg",
+    "budget": 120000000,
+    "homepage": "",
+    "imdbId": "tt8790086",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 5,
+        "logoPath": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "name": "Columbia Pictures",
+        "originCountry": "US"
+      },
+      {
+        "id": 53462,
+        "logoPath": "/nx8B3Phlcse02w86RW4CJqzCnfL.png",
+        "name": "Matt Tolmach Productions",
+        "originCountry": "US"
+      },
+      {
+        "id": 14439,
+        "name": "Arad Productions",
+        "originCountry": "US"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 59184643,
+    "runtime": 127,
+    "status": "Released",
+    "tagline": "Vilões não nascem. Se criam.",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1214667",
+    "backdropPath": "/i9bhxhUBFZHorvK81GNKMJGj2Kt.jpg",
+    "budget": 0,
+    "homepage": "https://www.netflix.com/br/title/81734609",
+    "imdbId": "tt30327680",
+    "originCountry": [
+      "GB"
+    ],
+    "productionCompanies": [],
+    "productionCountries": [
+      {
+        "name": "United Kingdom"
+      }
+    ],
+    "revenue": 0,
+    "runtime": 30,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1138194",
+    "backdropPath": "/ag66gJCiZ06q1GSJuQlhGLi3Udx.jpg",
+    "budget": 10000000,
+    "homepage": "",
+    "imdbId": "tt28015403",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 41077,
+        "logoPath": "/1ZXsGaFPgrgS6ZZGS37AqD5uU12.png",
+        "name": "A24",
+        "originCountry": "US"
+      },
+      {
+        "id": 133303,
+        "logoPath": "/nZzVZZIXkyjb9omN7uiIzOIxgGw.png",
+        "name": "Beck/Woods",
+        "originCountry": "US"
+      },
+      {
+        "id": 168415,
+        "name": "Shiny Penny Productions",
+        "originCountry": "US"
+      },
+      {
+        "id": 150758,
+        "logoPath": "/hYDtgClCwBnHLN74g2afEAud1El.png",
+        "name": "CatchLight Studios",
+        "originCountry": "US"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 51913394,
+    "runtime": 111,
+    "status": "Released",
+    "tagline": "Questione tudo.",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1278099",
+    "backdropPath": "/uFMIiNYUDHzo7YGSg5UUR7VLNma.jpg",
+    "budget": 0,
+    "homepage": "",
+    "imdbId": "tt24516018",
+    "originCountry": [
+      "MX"
+    ],
+    "productionCompanies": [
+      {
+        "id": 7570,
+        "logoPath": "/gW8dfVtl1JsGIiLnvglea1OHHVr.png",
+        "name": "Videocine",
+        "originCountry": "MX"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "Mexico"
+      }
+    ],
+    "revenue": 0,
+    "runtime": 95,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "533535",
+    "backdropPath": "/by8z9Fe8y7p4jo2YlW2SZDnptyT.jpg",
+    "budget": 200000000,
+    "homepage": "https://www.disney.com.br/filmes/deadpool-&-wolverine",
+    "imdbId": "tt6263850",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 420,
+        "logoPath": "/hUzeosd33nzE5MCNsZxCGEKTXaQ.png",
+        "name": "Marvel Studios",
+        "originCountry": "US"
+      },
+      {
+        "id": 104228,
+        "logoPath": "/hx0C1XcSxGgat8N62GpxoJGTkCk.png",
+        "name": "Maximum Effort",
+        "originCountry": "US"
+      },
+      {
+        "id": 2575,
+        "logoPath": "/9YJrHYlcfHtwtulkFMAies3aFEl.png",
+        "name": "21 Laps Entertainment",
+        "originCountry": "US"
+      },
+      {
+        "id": 127928,
+        "logoPath": "/h0rjX5vjW5r8yEnUBStFarjcLT4.png",
+        "name": "20th Century Studios",
+        "originCountry": "US"
+      },
+      {
+        "id": 176762,
+        "name": "Kevin Feige Productions",
+        "originCountry": "US"
+      },
+      {
+        "id": 22213,
+        "logoPath": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
+        "name": "TSG Entertainment",
+        "originCountry": "US"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 1338073645,
+    "runtime": 128,
+    "status": "Released",
+    "tagline": "Chegando juntos.",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1184918",
+    "backdropPath": "/1pmXyN3sKeYoUhu5VBZiDU4BX21.jpg",
+    "budget": 78000000,
+    "homepage": "https://www.universalpics.com.br/micro/wild-robot",
+    "imdbId": "tt29623480",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 521,
+        "logoPath": "/3BPX5VGBov8SDqTV7wC1L1xShAS.png",
+        "name": "DreamWorks Animation",
+        "originCountry": "US"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 324352935,
+    "runtime": 101,
+    "status": "Released",
+    "tagline": "Descubra sua verdadeira natureza.",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1064213",
+    "backdropPath": "/4cp40IyTpFfsT2IKpl0YlUkMBIR.jpg",
+    "budget": 6000000,
+    "homepage": "",
+    "imdbId": "tt28607951",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 88152,
+        "logoPath": "/zm1yRe17jzOgEzXrNj6hd8gl89O.png",
+        "name": "Cre Film",
+        "originCountry": "US"
+      },
+      {
+        "id": 7493,
+        "logoPath": "/fHitYiGUCkRafgt6VPYQlXWLkdp.png",
+        "name": "FilmNation Entertainment",
+        "originCountry": "US"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 32402606,
+    "runtime": 139,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1231813",
+    "backdropPath": "/d6HIjhk2f8BiZnVQ43gUv67khmX.jpg",
+    "budget": 0,
+    "homepage": "",
+    "originCountry": [
+      "KR"
+    ],
+    "productionCompanies": [],
+    "productionCountries": [
+      {
+        "name": "South Korea"
+      }
+    ],
+    "revenue": 0,
+    "runtime": 61,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "519182",
+    "backdropPath": "/lgkPzcOSnTvjeMnuFzozRO5HHw1.jpg",
+    "budget": 100000000,
+    "homepage": "https://www.universalpictures.com/movies/despicable-me-4",
+    "imdbId": "tt7510222",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 33,
+        "logoPath": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "name": "Universal Pictures",
+        "originCountry": "US"
+      },
+      {
+        "id": 6704,
+        "logoPath": "/fOG2oY4m1YuYTQh4bMqqZkmgOAI.png",
+        "name": "Illumination",
+        "originCountry": "US"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 969280910,
+    "runtime": 94,
+    "status": "Released",
+    "tagline": "As coisas ficaram um pouco mais desprezíveis.",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "974453",
+    "backdropPath": "/6lE2e6j8qbtQR8aHxQNJlwxdmKV.jpg",
+    "budget": 30000000,
+    "homepage": "",
+    "imdbId": "tt8337290",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 175140,
+        "logoPath": "/grxF2M2ZByxjnzDyvHkfU5Tjr80.png",
+        "name": "Electromagnetic Productions",
+        "originCountry": "US"
+      },
+      {
+        "id": 80292,
+        "logoPath": "/2s4EgAlqccfIPvbQPeRfNEBe1e0.png",
+        "name": "Sculptor Media",
+        "originCountry": "US"
+      },
+      {
+        "id": 220749,
+        "name": "north.five.six",
+        "originCountry": "US"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 0,
+    "runtime": 112,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1408248",
+    "backdropPath": "/lu4khHVh8ZF9AbaxW26pp4yLubb.jpg",
+    "budget": 0,
+    "homepage": "",
+    "originCountry": [
+      "KR"
+    ],
+    "productionCompanies": [],
+    "productionCountries": [
+      {
+        "name": "South Korea"
+      }
+    ],
+    "revenue": 0,
+    "runtime": 60,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "426063",
+    "backdropPath": "/uWOJbarUXfVf6B4o0368dh138eR.jpg",
+    "budget": 50000000,
+    "homepage": "",
+    "imdbId": "tt5040012",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 10146,
+        "logoPath": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
+        "name": "Focus Features",
+        "originCountry": "US"
+      },
+      {
+        "id": 77863,
+        "logoPath": "/7z6YOzvdk70YY8OaRbn5mfxrvbO.png",
+        "name": "Studio 8",
+        "originCountry": "US"
+      },
+      {
+        "id": 41641,
+        "name": "Maiden Voyage Pictures",
+        "originCountry": "US"
+      },
+      {
+        "id": 239430,
+        "name": "Birch Hill Road Entertainment",
+        "originCountry": "US"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 135795345,
+    "runtime": 133,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1276945",
+    "backdropPath": "/A28EE0vgHrB0OdoxWWMfgfyEoYn.jpg",
+    "budget": 0,
+    "homepage": "https://www.netflix.com/br/title/81674409",
+    "imdbId": "tt30021427",
+    "originCountry": [
+      "BE"
+    ],
+    "productionCompanies": [
+      {
+        "id": 120281,
+        "logoPath": "/bvNKpqHF6cRGPrMRVAbKIcqn6XY.png",
+        "name": "De Mensen",
+        "originCountry": "BE"
+      },
+      {
+        "id": 12025,
+        "logoPath": "/sLVmKLJ2E0KSsfKiIYDjo4v6Y5l.png",
+        "name": "VRT",
+        "originCountry": "BE"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "Belgium"
+      }
+    ],
+    "revenue": 0,
+    "runtime": 94,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "50270",
+    "backdropPath": "/4PAtIaArgPMpKe6fkXw051SYR88.jpg",
+    "budget": 0,
+    "homepage": "",
+    "imdbId": "tt0098063",
+    "originCountry": [
+      "IT"
+    ],
+    "productionCompanies": [
+      {
+        "id": 5128,
+        "name": "San Francisco Film",
+        "originCountry": "IT"
+      },
+      {
+        "id": 49589,
+        "name": "Scena Film",
+        "originCountry": "IT"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "Italy"
+      }
+    ],
+    "revenue": 0,
+    "runtime": 116,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1118031",
+    "backdropPath": "/lTYGtgDRygku7iiFLWyiEc4wLzz.jpg",
+    "budget": 0,
+    "homepage": "",
+    "imdbId": "tt27599851",
+    "originCountry": [
+      "ES"
+    ],
+    "productionCompanies": [
+      {
+        "id": 11068,
+        "logoPath": "/jOdUllzDZRFy0tPIFDEwpP4Mpv4.png",
+        "name": "Nostromo Pictures",
+        "originCountry": "ES"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "Spain"
+      }
+    ],
+    "revenue": 500000,
+    "runtime": 119,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1100782",
+    "backdropPath": "/iR79ciqhtaZ9BE7YFA1HpCHQgX4.jpg",
+    "budget": 28000000,
+    "homepage": "",
+    "imdbId": "tt29268110",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 4,
+        "logoPath": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+        "name": "Paramount Pictures",
+        "originCountry": "US"
+      },
+      {
+        "id": 12292,
+        "logoPath": "/4GQTeqos2luopEtp3OgMQYusQ5c.png",
+        "name": "Temple Hill Entertainment",
+        "originCountry": "US"
+      },
+      {
+        "id": 231315,
+        "name": "Bad Feeling",
+        "originCountry": "US"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 138083280,
+    "runtime": 127,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1022789",
+    "backdropPath": "/p5ozvmdgsmbWe0H8Xk7Rc8SCwAB.jpg",
+    "budget": 200000000,
+    "homepage": "https://www.disney.com.br/filmes/divertidamente-2",
+    "imdbId": "tt22022452",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 2,
+        "logoPath": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+        "name": "Walt Disney Pictures",
+        "originCountry": "US"
+      },
+      {
+        "id": 3,
+        "logoPath": "/1TjvGVDMYsj6JBxOAkUHpPEwLf7.png",
+        "name": "Pixar",
+        "originCountry": "US"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 1698778437,
+    "runtime": 100,
+    "status": "Released",
+    "tagline": "Libere o espaço para novas emoções.",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1261501",
+    "backdropPath": "/dMloNvayweggmvv0UD0iOJIkkbH.jpg",
+    "budget": 0,
+    "homepage": "https://www.netflix.com/br/title/81752951",
+    "imdbId": "tt32138452",
+    "originCountry": [
+      "FR"
+    ],
+    "productionCompanies": [
+      {
+        "id": 22976,
+        "name": "Les Films du Cap",
+        "originCountry": "FR"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "France"
+      }
+    ],
+    "revenue": 0,
+    "runtime": 98,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1397347",
+    "backdropPath": "/ylvCw3Wrr8ySZvDt1hCNm0URJxy.jpg",
+    "budget": 0,
+    "homepage": "",
+    "imdbId": "tt33397662",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 146598,
+        "logoPath": "/6B6g6PR19RWX4UVi8Q46lZbwb2L.png",
+        "name": "World Wrestling Entertainment (WWE)",
+        "originCountry": "US"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 0,
+    "runtime": 82,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "936621",
+    "backdropPath": "/u8VBaEESHAAc5tDWFc8IjXHw1eC.jpg",
+    "budget": 0,
+    "homepage": "",
+    "originCountry": [
+      "KR"
+    ],
+    "productionCompanies": [],
+    "productionCountries": [
+      {
+        "name": "South Korea"
+      }
+    ],
+    "revenue": 0,
+    "runtime": 74,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "945961",
+    "backdropPath": "/eP4RZSHliWu6lPT5WQyHr5ZZKuC.jpg",
+    "budget": 80000000,
+    "homepage": "",
+    "imdbId": "tt18412256",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 127928,
+        "logoPath": "/h0rjX5vjW5r8yEnUBStFarjcLT4.png",
+        "name": "20th Century Studios",
+        "originCountry": "US"
+      },
+      {
+        "id": 221347,
+        "logoPath": "/6Ry6uNBaa0IbbSs1XYIgX5DkA9r.png",
+        "name": "Scott Free Productions",
+        "originCountry": "US"
+      },
+      {
+        "id": 401,
+        "logoPath": "/t7mM3DvQ9MwDT3YzMCBrkWpWiiz.png",
+        "name": "Brandywine Productions",
+        "originCountry": "US"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 350865342,
+    "runtime": 119,
+    "status": "Released",
+    "tagline": "Eles foram em busca de uma nova vida. Ela os encontrou.",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "604685",
+    "backdropPath": "/q3Rgy4pQlPBou8ilYaVdHmjylyV.jpg",
+    "budget": 40000000,
+    "homepage": "",
+    "imdbId": "tt8008948",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 103330,
+        "name": "Diamond Film Productions",
+        "originCountry": "US"
+      },
+      {
+        "id": 103331,
+        "logoPath": "/nxkmGpo1Ym74DkBzNtoMz5cl6DJ.png",
+        "name": "G-BASE",
+        "originCountry": "US"
+      },
+      {
+        "id": 100033,
+        "logoPath": "/74LDJbOFdya1ijNT11uh0mM5eg0.png",
+        "name": "Tucker Tooley Entertainment",
+        "originCountry": "US"
+      },
+      {
+        "id": 1632,
+        "logoPath": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
+        "name": "Lionsgate",
+        "originCountry": "US"
+      },
+      {
+        "id": 69850,
+        "logoPath": "/jmrRZgqHnYmJC4uePQI2sLijpSk.png",
+        "name": "Entertainment One Features",
+        "originCountry": "CA"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "Canada"
+      },
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 15500000,
+    "runtime": 144,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "259872",
+    "backdropPath": "/dzY2ZYyPRbXcw8UOupHK3V5VQYk.jpg",
+    "budget": 0,
+    "homepage": "",
+    "imdbId": "tt1852099",
+    "originCountry": [
+      "NL"
+    ],
+    "productionCompanies": [
+      {
+        "id": 10422,
+        "name": "Blue Artichoke Films",
+        "originCountry": ""
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "Netherlands"
+      }
+    ],
+    "revenue": 0,
+    "runtime": 60,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "929204",
+    "backdropPath": "/ovt5KdS1oNwXkFPsgymhMoKvxKa.jpg",
+    "budget": 0,
+    "homepage": "https://www.netflix.com/br/title/81351936",
+    "imdbId": "tt17163970",
+    "originCountry": [
+      "GB"
+    ],
+    "productionCompanies": [
+      {
+        "id": 297,
+        "logoPath": "/58TnhYZqbMYgkHM6lg7dJoYJ4RH.png",
+        "name": "Aardman",
+        "originCountry": "GB"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "United Kingdom"
+      }
+    ],
+    "revenue": 191452,
+    "runtime": 79,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1034541",
+    "backdropPath": "/18TSJF1WLA4CkymvVUcKDBwUJ9F.jpg",
+    "budget": 2000000,
+    "homepage": "",
+    "imdbId": "tt27911000",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 238902,
+        "logoPath": "/jLAg5fOlAw1Jl8Q7WoyKxh1H22y.png",
+        "name": "Cineverse",
+        "originCountry": "US"
+      },
+      {
+        "id": 15157,
+        "logoPath": "/yezzLb9RbKNtQUsyYySAqC9TQr7.png",
+        "name": "Bloody Disgusting",
+        "originCountry": "US"
+      },
+      {
+        "id": 84591,
+        "name": "Dark Age Cinema",
+        "originCountry": "US"
+      },
+      {
+        "id": 114220,
+        "logoPath": "/b5n3DtfUySREkq4Xi962zMg69qq.png",
+        "name": "Fuzz on the Lens Productions",
+        "originCountry": "US"
+      },
+      {
+        "id": 213025,
+        "logoPath": "/bFz17QGqfF8wiQAH3T4kfzKC8dU.png",
+        "name": "The Coven",
+        "originCountry": "US"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 89771811,
+    "runtime": 125,
+    "status": "Released",
+    "tagline": "Melhor não gritar, melhor não chorar",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1252309",
+    "budget": 0,
+    "homepage": "",
+    "imdbId": "tt31723358",
+    "originCountry": [
+      "ES"
+    ],
+    "productionCompanies": [
+      {
+        "id": 11564,
+        "name": "Versus Entertainment",
+        "originCountry": "ES"
+      },
+      {
+        "id": 209187,
+        "name": "LyO Media",
+        "originCountry": ""
+      },
+      {
+        "id": 11652,
+        "name": "Warner Bros. Entertainment España",
+        "originCountry": "ES"
+      },
+      {
+        "id": 37209,
+        "name": "4 Cats Pictures",
+        "originCountry": "ES"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "Spain"
+      }
+    ],
+    "revenue": 0,
+    "runtime": 0,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1255788",
+    "backdropPath": "/pqulyfkug9A7TmmRn5zrbRA8TAY.jpg",
+    "budget": 0,
+    "homepage": "",
+    "imdbId": "tt30973842",
+    "originCountry": [
+      "FR"
+    ],
+    "productionCompanies": [
+      {
+        "id": 19037,
+        "logoPath": "/tceh2aAORA5JxIZSLQ1GkzTBZDL.png",
+        "name": "uMedia",
+        "originCountry": "BE"
+      },
+      {
+        "id": 222843,
+        "name": "Rose Productions",
+        "originCountry": "FR"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "Belgium"
+      },
+      {
+        "name": "France"
+      }
+    ],
+    "revenue": 0,
+    "runtime": 110,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1147416",
+    "backdropPath": "/rZmijM6poWf1nNItkZZ8H3gMkX7.jpg",
+    "budget": 0,
+    "homepage": "",
+    "imdbId": "tt13701202",
+    "originCountry": [
+      "FR"
+    ],
+    "productionCompanies": [
+      {
+        "id": 79650,
+        "name": "Zagtoon",
+        "originCountry": "FR"
+      },
+      {
+        "id": 35136,
+        "logoPath": "/lhGOKiuEls3KiWigu1hbvrqUP68.png",
+        "name": "Method Animation",
+        "originCountry": "FR"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "France"
+      }
+    ],
+    "revenue": 0,
+    "runtime": 50,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "710295",
+    "backdropPath": "/wwARk7hRIfHfh2n2ubN6N7lvTne.jpg",
+    "budget": 25000000,
+    "homepage": "",
+    "imdbId": "tt4216984",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 33,
+        "logoPath": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+        "name": "Universal Pictures",
+        "originCountry": "US"
+      },
+      {
+        "id": 11337,
+        "name": "Motel Movies",
+        "originCountry": "US"
+      },
+      {
+        "id": 22842,
+        "logoPath": "/buyfiDYTfPVTHxvYZ4yHu69zFPs.png",
+        "name": "Waypoint Entertainment",
+        "originCountry": "US"
+      },
+      {
+        "id": 242184,
+        "name": "Cloak & Co.",
+        "originCountry": ""
+      },
+      {
+        "id": 3172,
+        "logoPath": "/rzKluDcRkIwHZK2pHsiT667A2Kw.png",
+        "name": "Blumhouse Productions",
+        "originCountry": "US"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 0,
+    "runtime": 103,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1000075",
+    "backdropPath": "/sQbFupSWM9wUdPj96NZNUOFSP5.jpg",
+    "budget": 17000000,
+    "homepage": "",
+    "imdbId": "tt23049322",
+    "originCountry": [
+      "BE",
+      "US",
+      "FR"
+    ],
+    "productionCompanies": [
+      {
+        "id": 6750,
+        "name": "Pan-Européenne",
+        "originCountry": "FR"
+      },
+      {
+        "id": 3040,
+        "logoPath": "/aZww3B7RCFAMV1qrDZDrdeB8qcI.png",
+        "name": "Versus Production",
+        "originCountry": "BE"
+      },
+      {
+        "id": 356,
+        "logoPath": "/9tW5wZEGotn1Ei5pErA88m47XiD.png",
+        "name": "TF1 Films Production",
+        "originCountry": "FR"
+      },
+      {
+        "id": 792,
+        "logoPath": "/cRhBQP1FFNugNxKkO1pUgeD2Rkr.png",
+        "name": "RTBF",
+        "originCountry": "BE"
+      },
+      {
+        "id": 24430,
+        "logoPath": "/7ZIwXTA5QVD6feybiITOL6OYJPJ.png",
+        "name": "BeTV",
+        "originCountry": "BE"
+      },
+      {
+        "id": 92187,
+        "logoPath": "/yrAyYme1zlZtHuhlWS3DlFAj762.png",
+        "name": "Proximus",
+        "originCountry": "BE"
+      },
+      {
+        "id": 104,
+        "logoPath": "/9aotxauvc9685tq9pTcRJszuT06.png",
+        "name": "Canal+",
+        "originCountry": "FR"
+      },
+      {
+        "id": 169055,
+        "name": "la Fédération Wallonie- Bruxelles",
+        "originCountry": ""
+      },
+      {
+        "id": 10611,
+        "logoPath": "/zQ4fGaEnNkWfSzyygXRcUZwPmDG.png",
+        "name": "Ciné+",
+        "originCountry": "FR"
+      },
+      {
+        "id": 124138,
+        "logoPath": "/bcJuzZ0gnOUGWg52haT0ueAFHlP.png",
+        "name": "screen.brussels",
+        "originCountry": "BE"
+      },
+      {
+        "id": 856,
+        "logoPath": "/3tfzS2CrX6Ntbu927XzHXEPDA6y.png",
+        "name": "Wild Bunch",
+        "originCountry": "FR"
+      },
+      {
+        "id": 12352,
+        "logoPath": "/fkIacb6MddD6trIWamr33SIcUAn.png",
+        "name": "Wallimage",
+        "originCountry": "BE"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "Belgium"
+      },
+      {
+        "name": "France"
+      }
+    ],
+    "revenue": 0,
+    "runtime": 100,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "957119",
+    "backdropPath": "/h3fwlwHotd3JfV13HdW0mxDcxPD.jpg",
+    "budget": 0,
+    "homepage": "",
+    "imdbId": "tt19704542",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 81242,
+        "logoPath": "/qDqp143aZVXkykSiqivXfkSmX0b.png",
+        "name": "Great Pacific Media",
+        "originCountry": "CA"
+      },
+      {
+        "id": 78028,
+        "logoPath": "/sTFcDFfJaSVT3sv3DoaZDE4SlGB.png",
+        "name": "Thunderbird Entertainment",
+        "originCountry": "CA"
+      },
+      {
+        "id": 107108,
+        "logoPath": "/5mxc7uNtFOZm2ly0BxixxGPvPlb.png",
+        "name": "Wattpad",
+        "originCountry": "CA"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "Canada"
+      }
+    ],
+    "revenue": 0,
+    "runtime": 99,
+    "status": "Released",
+    "tagline": "Prepare-se para captar sentimentos.",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1208491",
+    "backdropPath": "/w6MAE6cs8F62iAspnIqwVksAENM.jpg",
+    "budget": 27200000,
+    "homepage": "",
+    "imdbId": "tt17494412",
+    "originCountry": [
+      "CA",
+      "FR"
+    ],
+    "productionCompanies": [
+      {
+        "id": 42210,
+        "logoPath": "/90jvlHsNtaFyft0LVMyw8cDBIQc.png",
+        "name": "2 Minutes",
+        "originCountry": "FR"
+      },
+      {
+        "id": 6623,
+        "logoPath": "/qvtEf5tM9IAEJUUhX9EcBl12Fhr.png",
+        "name": "Caramel Films",
+        "originCountry": "CA"
+      },
+      {
+        "id": 140868,
+        "name": "PM",
+        "originCountry": "FR"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "Canada"
+      },
+      {
+        "name": "France"
+      }
+    ],
+    "revenue": 0,
+    "runtime": 85,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1013850",
+    "backdropPath": "/fViElUGfdoZjtnVxvSpJX8TwxY6.jpg",
+    "budget": 0,
+    "homepage": "",
+    "imdbId": "tt21823606",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 138287,
+        "logoPath": "/3I1k679J7ZLQtVFM23dJhFZQQCH.png",
+        "name": "Fruit Tree",
+        "originCountry": "US"
+      },
+      {
+        "id": 99366,
+        "logoPath": "/r5UIazzNzEOUSEbxOfwWzEOBe5F.png",
+        "name": "Topic Studios",
+        "originCountry": "US"
+      },
+      {
+        "id": 113962,
+        "name": "Extreme Emotions",
+        "originCountry": "PL"
+      },
+      {
+        "id": 218445,
+        "name": "Rego Park",
+        "originCountry": "US"
+      },
+      {
+        "id": 148963,
+        "logoPath": "/jYOXf9Q07mlO4AU0o16YpTWlor2.png",
+        "name": "Mazowiecki i Warszawski Fundusz Filmowy",
+        "originCountry": "PL"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "Poland"
+      },
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 9814110,
+    "runtime": 90,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1222064",
+    "backdropPath": "/5o4iH2N4jX3HmNCBbC6rJqxtWj2.jpg",
+    "budget": 0,
+    "homepage": "",
+    "imdbId": "tt29708137",
+    "originCountry": [
+      "DK",
+      "GB"
+    ],
+    "productionCompanies": [
+      {
+        "id": 161221,
+        "logoPath": "/uv5qpxEdU7LJG8ubv3DnYhSWlhS.png",
+        "name": "REinvent Studios",
+        "originCountry": "DK"
+      },
+      {
+        "id": 61814,
+        "name": "Latitude Films",
+        "originCountry": ""
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "Denmark"
+      },
+      {
+        "name": "United Kingdom"
+      }
+    ],
+    "revenue": 0,
+    "runtime": 0,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1064486",
+    "backdropPath": "/i3CAo9UMGsvlU9k3Svd63rRDeZx.jpg",
+    "budget": 4350000,
+    "homepage": "",
+    "imdbId": "tt23770030",
+    "originCountry": [
+      "AU"
+    ],
+    "productionCompanies": [
+      {
+        "id": 15780,
+        "logoPath": "/bdQFj7E5yNsir5pMgacux2SoLGQ.png",
+        "name": "Arenamedia",
+        "originCountry": "AU"
+      },
+      {
+        "id": 7584,
+        "logoPath": "/eGkfvvyf4fJTvBUR1xt1669IPA3.png",
+        "name": "Screen Australia",
+        "originCountry": "AU"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "Australia"
+      }
+    ],
+    "revenue": 1189972,
+    "runtime": 94,
+    "status": "Released",
+    "tagline": "A vida só pode ser entendida olhando para trás mas temos que vivê-la olhando para frente",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1088514",
+    "backdropPath": "/9Xx0BCkxDsF47niAPsb8lQ0O9Qu.jpg",
+    "budget": 0,
+    "homepage": "",
+    "imdbId": "tt29439114",
+    "originCountry": [
+      "ES"
+    ],
+    "productionCompanies": [
+      {
+        "id": 49,
+        "logoPath": "/xpf5iHdvvBtsH8jBMlgIJHAET0c.png",
+        "name": "El Deseo",
+        "originCountry": "ES"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "Spain"
+      }
+    ],
+    "revenue": 11221376,
+    "runtime": 107,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1182387",
+    "backdropPath": "/evFChfYeD2LqobEJf8iQsrYcGTw.jpg",
+    "budget": 11500000,
+    "homepage": "",
+    "imdbId": "tt29252358",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 7417,
+        "logoPath": "/13GyIWMzFvDqJN6I6tZCQYzWr7L.png",
+        "name": "Convergence Entertainment",
+        "originCountry": "US"
+      },
+      {
+        "id": 20312,
+        "logoPath": "/iYmytRQt5jqlBIEaMQ0Cb6iAHh8.png",
+        "name": "TPC",
+        "originCountry": "US"
+      },
+      {
+        "id": 121204,
+        "logoPath": "/vbtvY4IxgUZk713rkmoTO4MHIac.png",
+        "name": "BondIt Media Capital",
+        "originCountry": "US"
+      },
+      {
+        "id": 3604,
+        "logoPath": "/jC6Hk3ZyNRlVPJsA0xGlAhgd2RP.png",
+        "name": "Grindstone Entertainment Group",
+        "originCountry": "US"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 0,
+    "runtime": 89,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1029235",
+    "backdropPath": "/uLqNGzJwnj8JKkKuRM2dHWJKCtc.jpg",
+    "budget": 12000000,
+    "homepage": "",
+    "imdbId": "tt22173666",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 184518,
+        "logoPath": "/lOouI8ibBzhLI4qvku74FPUVT8t.png",
+        "name": "C2 Motion Picture Group",
+        "originCountry": "US"
+      },
+      {
+        "id": 6144,
+        "logoPath": "/iarVMSGDqo8sAHPxz6duesUBRXG.png",
+        "name": "Homeless Bob Production",
+        "originCountry": "EE"
+      },
+      {
+        "id": 232289,
+        "name": "Traffic.",
+        "originCountry": "US"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "Estonia"
+      },
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 631272,
+    "runtime": 84,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "1241752",
+    "backdropPath": "/5AsIFZ2AJC7JcGpq40aRPuRuaRc.jpg",
+    "budget": 0,
+    "homepage": "",
+    "imdbId": "tt31589922",
+    "originCountry": [
+      "PH"
+    ],
+    "productionCompanies": [
+      {
+        "id": 149142,
+        "logoPath": "/25oYoXHsfWYlddAzJSBReajN3BM.png",
+        "name": "Vivamax",
+        "originCountry": "PH"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "Philippines"
+      }
+    ],
+    "revenue": 0,
+    "runtime": 113,
+    "status": "Released",
+    "tagline": "",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "728949",
+    "backdropPath": "/H39NvEXz23GE9iYQ4qqV4w1zWn.jpg",
+    "budget": 20000000,
+    "homepage": "",
+    "imdbId": "tt12810074",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 13184,
+        "logoPath": "/pfUB1a62jSMIqp4Xmaq6z2cgW0B.png",
+        "name": "Annapurna Pictures",
+        "originCountry": "US"
+      },
+      {
+        "id": 153856,
+        "name": "Bond Group Entertainment",
+        "originCountry": "US"
+      },
+      {
+        "id": 140323,
+        "logoPath": "/6ThcHAR8I6uffbuagIpe8sfGA7s.png",
+        "name": "Defiant By Nature",
+        "originCountry": "US"
+      },
+      {
+        "id": 41640,
+        "logoPath": "/e1naE79Djln19oDgMsP3uuvLbTq.png",
+        "name": "Archer Gray",
+        "originCountry": "US"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 170737,
+    "runtime": 99,
+    "status": "Released",
+    "tagline": "Liberte a fera.",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  },
+  {
+    "id": "157336",
+    "backdropPath": "/9REO1DLpmwhrBJY3mYW5eVxkXFM.jpg",
+    "budget": 165000000,
+    "homepage": "https://www.warnerbros.co.uk/movies/interstellar",
+    "imdbId": "tt0816692",
+    "originCountry": [
+      "US"
+    ],
+    "productionCompanies": [
+      {
+        "id": 923,
+        "logoPath": "/8M99Dkt23MjQMTTWukq4m5XsEuo.png",
+        "name": "Legendary Pictures",
+        "originCountry": "US"
+      },
+      {
+        "id": 9996,
+        "logoPath": "/3tvBqYsBhxWeHlu62SIJ1el93O7.png",
+        "name": "Syncopy",
+        "originCountry": "GB"
+      },
+      {
+        "id": 13769,
+        "name": "Lynda Obst Productions",
+        "originCountry": "US"
+      }
+    ],
+    "productionCountries": [
+      {
+        "name": "United Kingdom"
+      },
+      {
+        "name": "United States of America"
+      }
+    ],
+    "revenue": 701729206,
+    "runtime": 169,
+    "status": "Released",
+    "tagline": "O fim da terra não será o nosso fim.",
+    "_class": "com.scheldule.movie.infra.database.documents.MovieDetailDocument"
+  }
+]

@@ -1,0 +1,42 @@
+<configuration>
+    <!-- Define o padrão do log -->
+    <property name="LOG_PATTERN" value="%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n" />
+
+    <!-- Define o diretório de logs -->
+    <property name="LOG_DIR" value="logs" />
+
+    <!-- Appender para saída no console -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Appender para salvar logs em arquivo (arquivo rotativo diário) -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIR}/application.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- Arquivo de log diário -->
+            <fileNamePattern>${LOG_DIR}/application.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <!-- Número máximo de arquivos antigos a manter -->
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Configura os níveis de log para pacotes específicos -->
+    <logger name="org.springframework" level="INFO" />
+    <logger name="com.br.app.movie" level="DEBUG" />
+    <logger name="org.mongodb.driver" level="WARN" />
+
+    <!-- Configuração para logs do Resilience4j -->
+    <logger name="io.github.resilience4j" level="INFO" />
+
+    <!-- Configuração global de logs -->
+    <root level="INFO">
+        <appender-ref ref="CONSOLE" />
+        <appender-ref ref="FILE" />
+    </root>
+</configuration>

@@ -1,0 +1,33 @@
+spring:
+  data:
+    mongodb:
+      auto-index-creation: true
+      uri: "mongodb://leonardo:123456@localhost:27017/movies?authSource=admin&serverSelectionTimeoutMS=1000&connectTimeoutMS=1000"
+  integration:
+    tmdb:
+      url: https://api.themoviedb.org/3/
+      bearer: eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2YmY4ZjI4OTM0NzE4MGQ5YzhiNzliZTM5Y2FkYmQ5NiIsIm5iZiI6MTcyODA4NzI0NC44MTE0OCwic3ViIjoiNjA5YTYxNzUyODNlZDkwMDNjNmZlMTEzIiwic2NvcGVzIjpbImFwaV9yZWFkIl0sInZlcnNpb24iOjF9.IaEeZBuIP7DdvQ4C0ZaT4zY6bFwN3r-iFSHccLP0qsE
+      config:
+        include-video: false
+        include-adult: false
+        language: pt-BR
+        keywords-page: 1
+        recommended-page: 1
+server:
+  port: 8090
+resilience4j:
+  circuitbreaker:
+    instances:
+      movieIdCircuitBreaker:
+        slidingWindowSize: 10
+        failureRateThreshold: 50
+        waitDurationInOpenState: 30s
+        permittedNumberOfCallsInHalfOpenState: 3
+        minimumNumberOfCalls: 5
+        slowCallDurationThreshold: 2s
+        slowCallRateThreshold: 10
+        ignoreExceptions:
+          - com.br.app.movie.tmdb.java.app.exceptions.ResourceNotFoundException
+logging:
+  level:
+    io.github.resilience4j: DEBUG

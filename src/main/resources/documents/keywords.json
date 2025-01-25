@@ -1,0 +1,2568 @@
+[
+  {
+    "id": "939243",
+    "keywords": [
+      {
+        "id": "305",
+        "name": "moon"
+      },
+      {
+        "id": "9663",
+        "name": "sequel"
+      },
+      {
+        "id": "41645",
+        "name": "based on video game"
+      },
+      {
+        "id": "163129",
+        "name": "dual role"
+      },
+      {
+        "id": "179430",
+        "name": "aftercreditsstinger"
+      },
+      {
+        "id": "179431",
+        "name": "duringcreditsstinger"
+      },
+      {
+        "id": "208927",
+        "name": "hedgehog"
+      },
+      {
+        "id": "209220",
+        "name": "live action and animation"
+      },
+      {
+        "id": "245358",
+        "name": "grandfather grandson relationship"
+      },
+      {
+        "id": "258197",
+        "name": "animal human friendship"
+      },
+      {
+        "id": "259376",
+        "name": "playful"
+      },
+      {
+        "id": "269710",
+        "name": "anthropomorphic animal"
+      },
+      {
+        "id": "325435",
+        "name": "loss and grief"
+      },
+      {
+        "id": "332102",
+        "name": "sonic cinematic universe"
+      },
+      {
+        "id": "344544",
+        "name": "sonic adventure 2"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1222248",
+    "keywords": [
+      {
+        "id": "1956",
+        "name": "world war ii"
+      },
+      {
+        "id": "1191",
+        "name": "norway"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "762509",
+    "keywords": [
+      {
+        "id": "6054",
+        "name": "friendship"
+      },
+      {
+        "id": "439",
+        "name": "paradise"
+      },
+      {
+        "id": "2043",
+        "name": "lion"
+      },
+      {
+        "id": "4344",
+        "name": "musical"
+      },
+      {
+        "id": "9675",
+        "name": "prequel"
+      },
+      {
+        "id": "10787",
+        "name": "jungle"
+      },
+      {
+        "id": "171826",
+        "name": "told in flashback"
+      },
+      {
+        "id": "171854",
+        "name": "betrayal by friend"
+      },
+      {
+        "id": "177973",
+        "name": "chance meeting"
+      },
+      {
+        "id": "248927",
+        "name": "found family"
+      },
+      {
+        "id": "254167",
+        "name": "loving"
+      },
+      {
+        "id": "262419",
+        "name": "lost"
+      },
+      {
+        "id": "281585",
+        "name": "inspirational"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "558449",
+    "keywords": [
+      {
+        "id": "6917",
+        "name": "epic"
+      },
+      {
+        "id": "1394",
+        "name": "gladiator"
+      },
+      {
+        "id": "1405",
+        "name": "roman empire"
+      },
+      {
+        "id": "5049",
+        "name": "ancient rome"
+      },
+      {
+        "id": "9663",
+        "name": "sequel"
+      },
+      {
+        "id": "307212",
+        "name": "evil tyrant"
+      },
+      {
+        "id": "317728",
+        "name": "sword and sandal"
+      },
+      {
+        "id": "320529",
+        "name": "sword fighting"
+      },
+      {
+        "id": "321763",
+        "name": "second part"
+      },
+      {
+        "id": "325840",
+        "name": "optimistic"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "912649",
+    "keywords": [
+      {
+        "id": "1701",
+        "name": "hero"
+      },
+      {
+        "id": "9715",
+        "name": "superhero"
+      },
+      {
+        "id": "2095",
+        "name": "anti hero"
+      },
+      {
+        "id": "3289",
+        "name": "villain"
+      },
+      {
+        "id": "4862",
+        "name": "alien life-form"
+      },
+      {
+        "id": "9717",
+        "name": "based on comic"
+      },
+      {
+        "id": "9663",
+        "name": "sequel"
+      },
+      {
+        "id": "179430",
+        "name": "aftercreditsstinger"
+      },
+      {
+        "id": "187056",
+        "name": "woman director"
+      },
+      {
+        "id": "309974",
+        "name": "absurd"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1005331",
+    "keywords": [
+      {
+        "id": "1936",
+        "name": "blackmail"
+      },
+      {
+        "id": "8044",
+        "name": "flight"
+      },
+      {
+        "id": "12670",
+        "name": "los angeles, california"
+      },
+      {
+        "id": "260365",
+        "name": "christmas eve"
+      },
+      {
+        "id": "314730",
+        "name": "suspenseful"
+      },
+      {
+        "id": "316832",
+        "name": "tense"
+      },
+      {
+        "id": "324757",
+        "name": "los angeles airport (lax)"
+      },
+      {
+        "id": "325794",
+        "name": "derogatory"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "823219",
+    "keywords": [
+      {
+        "id": "270",
+        "name": "ocean"
+      },
+      {
+        "id": "977",
+        "name": "cat"
+      },
+      {
+        "id": "1422",
+        "name": "boat"
+      },
+      {
+        "id": "4565",
+        "name": "dystopia"
+      },
+      {
+        "id": "15162",
+        "name": "dog"
+      },
+      {
+        "id": "158386",
+        "name": "golden retriever"
+      },
+      {
+        "id": "173272",
+        "name": "flood"
+      },
+      {
+        "id": "277462",
+        "name": "bird"
+      },
+      {
+        "id": "278823",
+        "name": "3d animation"
+      },
+      {
+        "id": "293198",
+        "name": "fantasy"
+      },
+      {
+        "id": "318270",
+        "name": "capybara"
+      },
+      {
+        "id": "322942",
+        "name": "adventure"
+      },
+      {
+        "id": "325851",
+        "name": "straightforward"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1010581",
+    "keywords": [
+      {
+        "id": "2201",
+        "name": "first time"
+      },
+      {
+        "id": "3691",
+        "name": "forbidden love"
+      },
+      {
+        "id": "7714",
+        "name": "stepbrother"
+      },
+      {
+        "id": "11322",
+        "name": "female protagonist"
+      },
+      {
+        "id": "171341",
+        "name": "underage sex"
+      },
+      {
+        "id": "196691",
+        "name": "stepsister"
+      },
+      {
+        "id": "199524",
+        "name": "disturbed"
+      },
+      {
+        "id": "246466",
+        "name": "based on young adult novel"
+      },
+      {
+        "id": "282986",
+        "name": "enemies to lovers"
+      },
+      {
+        "id": "283057",
+        "name": "passion and romance"
+      },
+      {
+        "id": "310324",
+        "name": "car"
+      },
+      {
+        "id": "325796",
+        "name": "disapproving"
+      },
+      {
+        "id": "325798",
+        "name": "disgusted"
+      },
+      {
+        "id": "337262",
+        "name": "step-sibling romance"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "839033",
+    "keywords": [
+      {
+        "id": "6917",
+        "name": "epic"
+      },
+      {
+        "id": "818",
+        "name": "based on novel or book"
+      },
+      {
+        "id": "9675",
+        "name": "prequel"
+      },
+      {
+        "id": "44042",
+        "name": "treachery"
+      },
+      {
+        "id": "170362",
+        "name": "fantasy world"
+      },
+      {
+        "id": "210024",
+        "name": "anime"
+      },
+      {
+        "id": "273967",
+        "name": "war"
+      },
+      {
+        "id": "325765",
+        "name": "amused"
+      },
+      {
+        "id": "335572",
+        "name": "epic fantasy"
+      },
+      {
+        "id": "343405",
+        "name": "horsemen"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "970450",
+    "keywords": [
+      {
+        "id": "6582",
+        "name": "moonlight"
+      },
+      {
+        "id": "12564",
+        "name": "werewolf"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1043905",
+    "keywords": [
+      {
+        "id": "282114",
+        "name": "fictionalized history"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1156593",
+    "keywords": [
+      {
+        "id": "818",
+        "name": "based on novel or book"
+      },
+      {
+        "id": "9663",
+        "name": "sequel"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1357633",
+    "keywords": [
+      {
+        "id": "818",
+        "name": "based on novel or book"
+      },
+      {
+        "id": "9717",
+        "name": "based on comic"
+      },
+      {
+        "id": "12197",
+        "name": "compilation"
+      },
+      {
+        "id": "194008",
+        "name": "edited from tv series"
+      },
+      {
+        "id": "210024",
+        "name": "anime"
+      },
+      {
+        "id": "288474",
+        "name": "based on webcomic or webtoon"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1035048",
+    "keywords": [
+      {
+        "id": "1960",
+        "name": "mine"
+      },
+      {
+        "id": "1981",
+        "name": "colorado"
+      },
+      {
+        "id": "11612",
+        "name": "hospital"
+      },
+      {
+        "id": "14909",
+        "name": "alien invasion"
+      },
+      {
+        "id": "181031",
+        "name": "ski lift"
+      },
+      {
+        "id": "215861",
+        "name": "abandoned mine"
+      },
+      {
+        "id": "273439",
+        "name": "aliens"
+      },
+      {
+        "id": "289108",
+        "name": "monsters"
+      },
+      {
+        "id": "330339",
+        "name": "mountains"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1235623",
+    "keywords": [
+      {
+        "id": "325761",
+        "name": "admiring"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "933260",
+    "keywords": [
+      {
+        "id": "613",
+        "name": "new year's eve"
+      },
+      {
+        "id": "592",
+        "name": "capitalism"
+      },
+      {
+        "id": "2449",
+        "name": "black market"
+      },
+      {
+        "id": "1284",
+        "name": "identity"
+      },
+      {
+        "id": "2803",
+        "name": "affectation"
+      },
+      {
+        "id": "3258",
+        "name": "beauty"
+      },
+      {
+        "id": "8201",
+        "name": "satire"
+      },
+      {
+        "id": "4995",
+        "name": "aging"
+      },
+      {
+        "id": "6562",
+        "name": "celebrity"
+      },
+      {
+        "id": "11322",
+        "name": "female protagonist"
+      },
+      {
+        "id": "12670",
+        "name": "los angeles, california"
+      },
+      {
+        "id": "157774",
+        "name": "has been"
+      },
+      {
+        "id": "163405",
+        "name": "aerobics"
+      },
+      {
+        "id": "170383",
+        "name": "disfigurement"
+      },
+      {
+        "id": "187056",
+        "name": "woman director"
+      },
+      {
+        "id": "214664",
+        "name": "beauty standards"
+      },
+      {
+        "id": "228429",
+        "name": "insecure woman"
+      },
+      {
+        "id": "245415",
+        "name": "toxic masculinity"
+      },
+      {
+        "id": "251961",
+        "name": "drug"
+      },
+      {
+        "id": "283085",
+        "name": "body horror"
+      },
+      {
+        "id": "293194",
+        "name": "youth"
+      },
+      {
+        "id": "295902",
+        "name": "actress"
+      },
+      {
+        "id": "325856",
+        "name": "vibrant"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "402431",
+    "keywords": [
+      {
+        "id": "616",
+        "name": "witch"
+      },
+      {
+        "id": "246",
+        "name": "dancing"
+      },
+      {
+        "id": "818",
+        "name": "based on novel or book"
+      },
+      {
+        "id": "3616",
+        "name": "college"
+      },
+      {
+        "id": "4896",
+        "name": "wish"
+      },
+      {
+        "id": "4344",
+        "name": "musical"
+      },
+      {
+        "id": "5248",
+        "name": "female friendship"
+      },
+      {
+        "id": "6733",
+        "name": "bullying"
+      },
+      {
+        "id": "10181",
+        "name": "based on play or musical"
+      },
+      {
+        "id": "6562",
+        "name": "celebrity"
+      },
+      {
+        "id": "9675",
+        "name": "prequel"
+      },
+      {
+        "id": "10229",
+        "name": "singer"
+      },
+      {
+        "id": "12990",
+        "name": "singing"
+      },
+      {
+        "id": "156024",
+        "name": "corrupt politician"
+      },
+      {
+        "id": "170135",
+        "name": "death in childbirth"
+      },
+      {
+        "id": "170362",
+        "name": "fantasy world"
+      },
+      {
+        "id": "177912",
+        "name": "wizard"
+      },
+      {
+        "id": "180466",
+        "name": "gravity"
+      },
+      {
+        "id": "186782",
+        "name": "discrimination"
+      },
+      {
+        "id": "196630",
+        "name": "ostracism"
+      },
+      {
+        "id": "196785",
+        "name": "woman in wheelchair"
+      },
+      {
+        "id": "240462",
+        "name": "musical comedy"
+      },
+      {
+        "id": "241738",
+        "name": "sister sister relationship"
+      },
+      {
+        "id": "250819",
+        "name": "belonging"
+      },
+      {
+        "id": "293198",
+        "name": "fantasy"
+      },
+      {
+        "id": "323305",
+        "name": "romantic fantasy"
+      },
+      {
+        "id": "324005",
+        "name": "fantasy comedy"
+      },
+      {
+        "id": "325761",
+        "name": "admiring"
+      },
+      {
+        "id": "325762",
+        "name": "adoring"
+      },
+      {
+        "id": "325763",
+        "name": "ambiguous"
+      },
+      {
+        "id": "325842",
+        "name": "powerful"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1241982",
+    "keywords": [
+      {
+        "id": "658",
+        "name": "sea"
+      },
+      {
+        "id": "270",
+        "name": "ocean"
+      },
+      {
+        "id": "3289",
+        "name": "villain"
+      },
+      {
+        "id": "4344",
+        "name": "musical"
+      },
+      {
+        "id": "9663",
+        "name": "sequel"
+      },
+      {
+        "id": "179431",
+        "name": "duringcreditsstinger"
+      },
+      {
+        "id": "325765",
+        "name": "amused"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "845781",
+    "keywords": [
+      {
+        "id": "801",
+        "name": "bounty hunter"
+      },
+      {
+        "id": "65",
+        "name": "holiday"
+      },
+      {
+        "id": "1930",
+        "name": "kidnapping"
+      },
+      {
+        "id": "1991",
+        "name": "santa claus"
+      },
+      {
+        "id": "6678",
+        "name": "polar bear"
+      },
+      {
+        "id": "207317",
+        "name": "christmas"
+      },
+      {
+        "id": "247799",
+        "name": "action comedy"
+      },
+      {
+        "id": "260365",
+        "name": "christmas eve"
+      },
+      {
+        "id": "298618",
+        "name": "family comedy"
+      },
+      {
+        "id": "324005",
+        "name": "fantasy comedy"
+      },
+      {
+        "id": "325811",
+        "name": "excited"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "539972",
+    "keywords": [
+      {
+        "id": "414",
+        "name": "hunter"
+      },
+      {
+        "id": "9715",
+        "name": "superhero"
+      },
+      {
+        "id": "3289",
+        "name": "villain"
+      },
+      {
+        "id": "9717",
+        "name": "based on comic"
+      },
+      {
+        "id": "194404",
+        "name": "supervillain"
+      },
+      {
+        "id": "285809",
+        "name": "antihero"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1214667",
+    "keywords": [
+      {
+        "id": "9817",
+        "name": "behind the scenes"
+      },
+      {
+        "id": "50244",
+        "name": "making of"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1138194",
+    "keywords": [
+      {
+        "id": "6150",
+        "name": "faith"
+      },
+      {
+        "id": "2803",
+        "name": "affectation"
+      },
+      {
+        "id": "11001",
+        "name": "religion"
+      },
+      {
+        "id": "15076",
+        "name": "cat and mouse"
+      },
+      {
+        "id": "156482",
+        "name": "mormon missionary"
+      },
+      {
+        "id": "226028",
+        "name": "eccentric man"
+      },
+      {
+        "id": "319001",
+        "name": "women of faith"
+      },
+      {
+        "id": "325818",
+        "name": "frightened"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1278099",
+    "keywords": [],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "533535",
+    "keywords": [
+      {
+        "id": "1701",
+        "name": "hero"
+      },
+      {
+        "id": "9715",
+        "name": "superhero"
+      },
+      {
+        "id": "2095",
+        "name": "anti hero"
+      },
+      {
+        "id": "1852",
+        "name": "mutant"
+      },
+      {
+        "id": "11687",
+        "name": "breaking the fourth wall"
+      },
+      {
+        "id": "179430",
+        "name": "aftercreditsstinger"
+      },
+      {
+        "id": "179431",
+        "name": "duringcreditsstinger"
+      },
+      {
+        "id": "180547",
+        "name": "marvel cinematic universe (mcu)"
+      },
+      {
+        "id": "234268",
+        "name": "mutants"
+      },
+      {
+        "id": "265979",
+        "name": "superhero teamup"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1184918",
+    "keywords": [
+      {
+        "id": "14544",
+        "name": "robot"
+      },
+      {
+        "id": "15101",
+        "name": "based on children's book"
+      },
+      {
+        "id": "179430",
+        "name": "aftercreditsstinger"
+      },
+      {
+        "id": "179431",
+        "name": "duringcreditsstinger"
+      },
+      {
+        "id": "209051",
+        "name": "adopted son"
+      },
+      {
+        "id": "281585",
+        "name": "inspirational"
+      },
+      {
+        "id": "286758",
+        "name": "kids"
+      },
+      {
+        "id": "318688",
+        "name": "traditional parenting"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1064213",
+    "keywords": [
+      {
+        "id": "613",
+        "name": "new year's eve"
+      },
+      {
+        "id": "242",
+        "name": "new york city"
+      },
+      {
+        "id": "6038",
+        "name": "marriage"
+      },
+      {
+        "id": "5532",
+        "name": "boardwalk"
+      },
+      {
+        "id": "5651",
+        "name": "baptism"
+      },
+      {
+        "id": "3688",
+        "name": "strip club"
+      },
+      {
+        "id": "9273",
+        "name": "coney island"
+      },
+      {
+        "id": "10391",
+        "name": "mafia"
+      },
+      {
+        "id": "11322",
+        "name": "female protagonist"
+      },
+      {
+        "id": "12545",
+        "name": "mansion"
+      },
+      {
+        "id": "14570",
+        "name": "las vegas"
+      },
+      {
+        "id": "41523",
+        "name": "brooklyn, new york city"
+      },
+      {
+        "id": "155457",
+        "name": "screwball comedy"
+      },
+      {
+        "id": "161958",
+        "name": "immaturity"
+      },
+      {
+        "id": "168676",
+        "name": "city hall"
+      },
+      {
+        "id": "170375",
+        "name": "exotic dancer"
+      },
+      {
+        "id": "190178",
+        "name": "sex worker"
+      },
+      {
+        "id": "221152",
+        "name": "meddling parents"
+      },
+      {
+        "id": "225133",
+        "name": "annulment"
+      },
+      {
+        "id": "227944",
+        "name": "strip show"
+      },
+      {
+        "id": "241492",
+        "name": "russian oligarch"
+      },
+      {
+        "id": "267122",
+        "name": "sex"
+      },
+      {
+        "id": "286407",
+        "name": "party"
+      },
+      {
+        "id": "305161",
+        "name": "romantic dramedy"
+      },
+      {
+        "id": "323091",
+        "name": "cinderella story"
+      },
+      {
+        "id": "342521",
+        "name": "brighton beach"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1231813",
+    "keywords": [
+      {
+        "id": "155477",
+        "name": "softcore"
+      },
+      {
+        "id": "244067",
+        "name": "swapping couple"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "519182",
+    "keywords": [
+      {
+        "id": "9715",
+        "name": "superhero"
+      },
+      {
+        "id": "3289",
+        "name": "villain"
+      },
+      {
+        "id": "9663",
+        "name": "sequel"
+      },
+      {
+        "id": "163074",
+        "name": "super villain"
+      },
+      {
+        "id": "179430",
+        "name": "aftercreditsstinger"
+      },
+      {
+        "id": "179431",
+        "name": "duringcreditsstinger"
+      },
+      {
+        "id": "209673",
+        "name": "calm"
+      },
+      {
+        "id": "274453",
+        "name": "illumination"
+      },
+      {
+        "id": "286758",
+        "name": "kids"
+      },
+      {
+        "id": "320420",
+        "name": "hilarious"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "974453",
+    "keywords": [
+      {
+        "id": "3149",
+        "name": "gangster"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1408248",
+    "keywords": [
+      {
+        "id": "11183",
+        "name": "fireplace"
+      },
+      {
+        "id": "324787",
+        "name": "yule log"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "426063",
+    "keywords": [
+      {
+        "id": "5198",
+        "name": "cold"
+      },
+      {
+        "id": "818",
+        "name": "based on novel or book"
+      },
+      {
+        "id": "3133",
+        "name": "vampire"
+      },
+      {
+        "id": "5919",
+        "name": "necrophilia"
+      },
+      {
+        "id": "1664",
+        "name": "eroticism"
+      },
+      {
+        "id": "9712",
+        "name": "possession"
+      },
+      {
+        "id": "5567",
+        "name": "würzburg"
+      },
+      {
+        "id": "9714",
+        "name": "remake"
+      },
+      {
+        "id": "15032",
+        "name": "gothic horror"
+      },
+      {
+        "id": "33513",
+        "name": "desire"
+      },
+      {
+        "id": "188959",
+        "name": "plague"
+      },
+      {
+        "id": "207928",
+        "name": "19th century"
+      },
+      {
+        "id": "212634",
+        "name": "dread"
+      },
+      {
+        "id": "224795",
+        "name": "drinking blood"
+      },
+      {
+        "id": "256183",
+        "name": "supernatural horror"
+      },
+      {
+        "id": "286194",
+        "name": "period piece"
+      },
+      {
+        "id": "296659",
+        "name": "1830s"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1276945",
+    "keywords": [
+      {
+        "id": "9663",
+        "name": "sequel"
+      },
+      {
+        "id": "33674",
+        "name": "conscience"
+      },
+      {
+        "id": "269769",
+        "name": "based on tv series"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "50270",
+    "keywords": [
+      {
+        "id": "549",
+        "name": "prostitute"
+      },
+      {
+        "id": "818",
+        "name": "based on novel or book"
+      },
+      {
+        "id": "1430",
+        "name": "self sacrifice"
+      },
+      {
+        "id": "588",
+        "name": "rome, italy"
+      },
+      {
+        "id": "131",
+        "name": "italy"
+      },
+      {
+        "id": "1411",
+        "name": "brothel"
+      },
+      {
+        "id": "1667",
+        "name": "pimp"
+      },
+      {
+        "id": "6038",
+        "name": "marriage"
+      },
+      {
+        "id": "13008",
+        "name": "train"
+      },
+      {
+        "id": "13059",
+        "name": "prostitution"
+      },
+      {
+        "id": "14632",
+        "name": "suburb"
+      },
+      {
+        "id": "155477",
+        "name": "softcore"
+      },
+      {
+        "id": "190370",
+        "name": "erotic movie"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1118031",
+    "keywords": [
+      {
+        "id": "818",
+        "name": "based on novel or book"
+      },
+      {
+        "id": "977",
+        "name": "cat"
+      },
+      {
+        "id": "2526",
+        "name": "human animal relationship"
+      },
+      {
+        "id": "5896",
+        "name": "galicia, spain"
+      },
+      {
+        "id": "10473",
+        "name": "contagion spread"
+      },
+      {
+        "id": "12377",
+        "name": "zombie"
+      },
+      {
+        "id": "183896",
+        "name": "neighbor neighbor relationship"
+      },
+      {
+        "id": "186565",
+        "name": "zombie apocalypse"
+      },
+      {
+        "id": "257081",
+        "name": "traumatized man"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1100782",
+    "keywords": [
+      {
+        "id": "2231",
+        "name": "drug dealer"
+      },
+      {
+        "id": "242",
+        "name": "new york city"
+      },
+      {
+        "id": "236",
+        "name": "suicide"
+      },
+      {
+        "id": "6029",
+        "name": "concert"
+      },
+      {
+        "id": "6262",
+        "name": "delusion"
+      },
+      {
+        "id": "2754",
+        "name": "trauma"
+      },
+      {
+        "id": "3298",
+        "name": "hallucination"
+      },
+      {
+        "id": "6782",
+        "name": "addiction"
+      },
+      {
+        "id": "9663",
+        "name": "sequel"
+      },
+      {
+        "id": "9826",
+        "name": "murder"
+      },
+      {
+        "id": "10541",
+        "name": "curse"
+      },
+      {
+        "id": "13063",
+        "name": "car accident"
+      },
+      {
+        "id": "14767",
+        "name": "scar"
+      },
+      {
+        "id": "15001",
+        "name": "demon"
+      },
+      {
+        "id": "33720",
+        "name": "guilt"
+      },
+      {
+        "id": "33922",
+        "name": "pop music"
+      },
+      {
+        "id": "156075",
+        "name": "evil"
+      },
+      {
+        "id": "183738",
+        "name": "sobriety"
+      },
+      {
+        "id": "200234",
+        "name": "shocking"
+      },
+      {
+        "id": "233130",
+        "name": "self-harm"
+      },
+      {
+        "id": "235173",
+        "name": "delusional"
+      },
+      {
+        "id": "240511",
+        "name": "popstar"
+      },
+      {
+        "id": "250368",
+        "name": "smile"
+      },
+      {
+        "id": "256183",
+        "name": "supernatural horror"
+      },
+      {
+        "id": "283085",
+        "name": "body horror"
+      },
+      {
+        "id": "309974",
+        "name": "absurd"
+      },
+      {
+        "id": "313704",
+        "name": "tour"
+      },
+      {
+        "id": "325825",
+        "name": "horrified"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1022789",
+    "keywords": [
+      {
+        "id": "1647",
+        "name": "sadness"
+      },
+      {
+        "id": "3444",
+        "name": "disgust"
+      },
+      {
+        "id": "9663",
+        "name": "sequel"
+      },
+      {
+        "id": "10159",
+        "name": "computer animation"
+      },
+      {
+        "id": "10809",
+        "name": "teenage girl"
+      },
+      {
+        "id": "13073",
+        "name": "fear"
+      },
+      {
+        "id": "18047",
+        "name": "anger"
+      },
+      {
+        "id": "155624",
+        "name": "envy"
+      },
+      {
+        "id": "164246",
+        "name": "nostalgic"
+      },
+      {
+        "id": "179430",
+        "name": "aftercreditsstinger"
+      },
+      {
+        "id": "179431",
+        "name": "duringcreditsstinger"
+      },
+      {
+        "id": "211269",
+        "name": "emotions"
+      },
+      {
+        "id": "241752",
+        "name": "embarrasment"
+      },
+      {
+        "id": "277029",
+        "name": "joy"
+      },
+      {
+        "id": "280263",
+        "name": "anxiety"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1261501",
+    "keywords": [],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1397347",
+    "keywords": [],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "936621",
+    "keywords": [
+      {
+        "id": "155477",
+        "name": "softcore"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "945961",
+    "keywords": [
+      {
+        "id": "4862",
+        "name": "alien life-form"
+      },
+      {
+        "id": "9663",
+        "name": "sequel"
+      },
+      {
+        "id": "9951",
+        "name": "alien"
+      },
+      {
+        "id": "9882",
+        "name": "space"
+      },
+      {
+        "id": "160515",
+        "name": "alien contact"
+      },
+      {
+        "id": "183787",
+        "name": "alien monster"
+      },
+      {
+        "id": "229652",
+        "name": "alien encounter"
+      },
+      {
+        "id": "230856",
+        "name": "space capsule"
+      },
+      {
+        "id": "238759",
+        "name": "alien hostility"
+      },
+      {
+        "id": "325763",
+        "name": "ambiguous"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "604685",
+    "keywords": [
+      {
+        "id": "1384",
+        "name": "diamond"
+      },
+      {
+        "id": "8440",
+        "name": "ex-cop"
+      },
+      {
+        "id": "10051",
+        "name": "heist"
+      },
+      {
+        "id": "232766",
+        "name": "vengeance"
+      },
+      {
+        "id": "323114",
+        "name": "crime"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "259872",
+    "keywords": [],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "929204",
+    "keywords": [
+      {
+        "id": "1436",
+        "name": "inventor"
+      },
+      {
+        "id": "2526",
+        "name": "human animal relationship"
+      },
+      {
+        "id": "3028",
+        "name": "penguin"
+      },
+      {
+        "id": "11477",
+        "name": "anthropomorphism"
+      },
+      {
+        "id": "9748",
+        "name": "revenge"
+      },
+      {
+        "id": "10121",
+        "name": "stop motion"
+      },
+      {
+        "id": "14544",
+        "name": "robot"
+      },
+      {
+        "id": "15162",
+        "name": "dog"
+      },
+      {
+        "id": "155508",
+        "name": "jewel heist"
+      },
+      {
+        "id": "190083",
+        "name": "gnome"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1034541",
+    "keywords": [
+      {
+        "id": "1299",
+        "name": "monster"
+      },
+      {
+        "id": "447",
+        "name": "post-traumatic stress disorder (ptsd)"
+      },
+      {
+        "id": "290",
+        "name": "angel"
+      },
+      {
+        "id": "1879",
+        "name": "shower"
+      },
+      {
+        "id": "1468",
+        "name": "child murder"
+      },
+      {
+        "id": "1991",
+        "name": "santa claus"
+      },
+      {
+        "id": "3616",
+        "name": "college"
+      },
+      {
+        "id": "3199",
+        "name": "clown"
+      },
+      {
+        "id": "3458",
+        "name": "bartender"
+      },
+      {
+        "id": "10292",
+        "name": "gore"
+      },
+      {
+        "id": "5984",
+        "name": "dormitory"
+      },
+      {
+        "id": "9663",
+        "name": "sequel"
+      },
+      {
+        "id": "10714",
+        "name": "serial killer"
+      },
+      {
+        "id": "10809",
+        "name": "teenage girl"
+      },
+      {
+        "id": "12339",
+        "name": "slasher"
+      },
+      {
+        "id": "12394",
+        "name": "chainsaw"
+      },
+      {
+        "id": "14546",
+        "name": "massacre"
+      },
+      {
+        "id": "41329",
+        "name": "mental illness"
+      },
+      {
+        "id": "157676",
+        "name": "disfigured face"
+      },
+      {
+        "id": "160174",
+        "name": "mental asylum"
+      },
+      {
+        "id": "164829",
+        "name": "cousin cousin relationship"
+      },
+      {
+        "id": "170499",
+        "name": "mall santa"
+      },
+      {
+        "id": "176691",
+        "name": "killer clown"
+      },
+      {
+        "id": "179569",
+        "name": "terrorist bombing"
+      },
+      {
+        "id": "186466",
+        "name": "christmas horror"
+      },
+      {
+        "id": "191327",
+        "name": "evil clown"
+      },
+      {
+        "id": "193048",
+        "name": "christmas spirit"
+      },
+      {
+        "id": "207317",
+        "name": "christmas"
+      },
+      {
+        "id": "213134",
+        "name": "murder of parents"
+      },
+      {
+        "id": "236343",
+        "name": "orphan siblings"
+      },
+      {
+        "id": "251513",
+        "name": "supernatural power"
+      },
+      {
+        "id": "253411",
+        "name": "death of a child"
+      },
+      {
+        "id": "256183",
+        "name": "supernatural horror"
+      },
+      {
+        "id": "277050",
+        "name": "bar"
+      },
+      {
+        "id": "280075",
+        "name": "bloody"
+      },
+      {
+        "id": "281237",
+        "name": "independent film"
+      },
+      {
+        "id": "284439",
+        "name": "blood"
+      },
+      {
+        "id": "285961",
+        "name": "low budget"
+      },
+      {
+        "id": "306196",
+        "name": "megaslasher"
+      },
+      {
+        "id": "323181",
+        "name": "scary"
+      },
+      {
+        "id": "325777",
+        "name": "bewildered"
+      },
+      {
+        "id": "338813",
+        "name": "serial killers"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1252309",
+    "keywords": [
+      {
+        "id": "514",
+        "name": "spain"
+      },
+      {
+        "id": "818",
+        "name": "based on novel or book"
+      },
+      {
+        "id": "187056",
+        "name": "woman director"
+      },
+      {
+        "id": "298666",
+        "name": "erotic romance"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1255788",
+    "keywords": [],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1147416",
+    "keywords": [
+      {
+        "id": "212",
+        "name": "london, england"
+      },
+      {
+        "id": "9715",
+        "name": "superhero"
+      },
+      {
+        "id": "286758",
+        "name": "kids"
+      },
+      {
+        "id": "324429",
+        "name": "romantic"
+      },
+      {
+        "id": "339274",
+        "name": "لندن"
+      },
+      {
+        "id": "339275",
+        "name": "السفر عبر الزمن"
+      },
+      {
+        "id": "339276",
+        "name": "ميراكلوس"
+      },
+      {
+        "id": "339277",
+        "name": "بانيكس"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "710295",
+    "keywords": [
+      {
+        "id": "1299",
+        "name": "monster"
+      },
+      {
+        "id": "305",
+        "name": "moon"
+      },
+      {
+        "id": "4375",
+        "name": "transformation"
+      },
+      {
+        "id": "4550",
+        "name": "full moon"
+      },
+      {
+        "id": "4884",
+        "name": "infection"
+      },
+      {
+        "id": "9844",
+        "name": "car crash"
+      },
+      {
+        "id": "9720",
+        "name": "woods"
+      },
+      {
+        "id": "1897",
+        "name": "oregon, usa"
+      },
+      {
+        "id": "9714",
+        "name": "remake"
+      },
+      {
+        "id": "11155",
+        "name": "wolfman"
+      },
+      {
+        "id": "12564",
+        "name": "werewolf"
+      },
+      {
+        "id": "33574",
+        "name": "childhood home"
+      },
+      {
+        "id": "158126",
+        "name": "creature feature"
+      },
+      {
+        "id": "210614",
+        "name": "monster movie"
+      },
+      {
+        "id": "228001",
+        "name": "lycanthrope"
+      },
+      {
+        "id": "256183",
+        "name": "supernatural horror"
+      },
+      {
+        "id": "283085",
+        "name": "body horror"
+      },
+      {
+        "id": "315058",
+        "name": "horror"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1000075",
+    "keywords": [
+      {
+        "id": "1930",
+        "name": "kidnapping"
+      },
+      {
+        "id": "9663",
+        "name": "sequel"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "957119",
+    "keywords": [
+      {
+        "id": "6270",
+        "name": "high school"
+      },
+      {
+        "id": "818",
+        "name": "based on novel or book"
+      },
+      {
+        "id": "313356",
+        "name": "american football player"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1208491",
+    "keywords": [],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1013850",
+    "keywords": [
+      {
+        "id": "4424",
+        "name": "pain"
+      },
+      {
+        "id": "1252",
+        "name": "suicide attempt"
+      },
+      {
+        "id": "1739",
+        "name": "holocaust (shoah)"
+      },
+      {
+        "id": "3013",
+        "name": "jfk international airport"
+      },
+      {
+        "id": "6876",
+        "name": "vacation"
+      },
+      {
+        "id": "9872",
+        "name": "grief"
+      },
+      {
+        "id": "11211",
+        "name": "jewish american"
+      },
+      {
+        "id": "21747",
+        "name": "poland"
+      },
+      {
+        "id": "164829",
+        "name": "cousin cousin relationship"
+      },
+      {
+        "id": "169866",
+        "name": "reflection"
+      },
+      {
+        "id": "203322",
+        "name": "dramedy"
+      },
+      {
+        "id": "210434",
+        "name": "thoughtful"
+      },
+      {
+        "id": "222318",
+        "name": "coping mechanisms"
+      },
+      {
+        "id": "251543",
+        "name": "heritage"
+      },
+      {
+        "id": "274920",
+        "name": "jewish"
+      },
+      {
+        "id": "313704",
+        "name": "tour"
+      },
+      {
+        "id": "314730",
+        "name": "suspenseful"
+      },
+      {
+        "id": "317149",
+        "name": "death of grandmother"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1222064",
+    "keywords": [
+      {
+        "id": "3362",
+        "name": "kayak"
+      },
+      {
+        "id": "10085",
+        "name": "betrayal"
+      },
+      {
+        "id": "10787",
+        "name": "jungle"
+      },
+      {
+        "id": "12565",
+        "name": "psychological thriller"
+      },
+      {
+        "id": "14895",
+        "name": "cannibal"
+      },
+      {
+        "id": "235526",
+        "name": "cannibal cult"
+      },
+      {
+        "id": "295907",
+        "name": "psychological horror"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1064486",
+    "keywords": [
+      {
+        "id": "2467",
+        "name": "difficult childhood"
+      },
+      {
+        "id": "10201",
+        "name": "death of father"
+      },
+      {
+        "id": "10121",
+        "name": "stop motion"
+      },
+      {
+        "id": "161919",
+        "name": "adult animation"
+      },
+      {
+        "id": "170135",
+        "name": "death in childbirth"
+      },
+      {
+        "id": "193319",
+        "name": "broken family"
+      },
+      {
+        "id": "240485",
+        "name": "brother sister relationship"
+      },
+      {
+        "id": "289590",
+        "name": "snail"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1088514",
+    "keywords": [
+      {
+        "id": "242",
+        "name": "new york city"
+      },
+      {
+        "id": "236",
+        "name": "suicide"
+      },
+      {
+        "id": "818",
+        "name": "based on novel or book"
+      },
+      {
+        "id": "1541",
+        "name": "nihilism"
+      },
+      {
+        "id": "5299",
+        "name": "war correspondent"
+      },
+      {
+        "id": "5248",
+        "name": "female friendship"
+      },
+      {
+        "id": "6447",
+        "name": "woodstock, new york"
+      },
+      {
+        "id": "7973",
+        "name": "bosnian war (1992-95)"
+      },
+      {
+        "id": "9928",
+        "name": "bereavement"
+      },
+      {
+        "id": "10163",
+        "name": "cancer"
+      },
+      {
+        "id": "13028",
+        "name": "writer"
+      },
+      {
+        "id": "155251",
+        "name": "novelist"
+      },
+      {
+        "id": "163129",
+        "name": "dual role"
+      },
+      {
+        "id": "181324",
+        "name": "existentialism"
+      },
+      {
+        "id": "206662",
+        "name": "euthanasia"
+      },
+      {
+        "id": "223019",
+        "name": "terminal cancer"
+      },
+      {
+        "id": "227474",
+        "name": "estranged daughter"
+      },
+      {
+        "id": "308814",
+        "name": "autofiction"
+      },
+      {
+        "id": "321464",
+        "name": "intense"
+      },
+      {
+        "id": "334666",
+        "name": "anecdote"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1182387",
+    "keywords": [
+      {
+        "id": "159660",
+        "name": "armored truck"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1029235",
+    "keywords": [
+      {
+        "id": "2858",
+        "name": "sacrifice"
+      },
+      {
+        "id": "202371",
+        "name": "aggressive"
+      },
+      {
+        "id": "229863",
+        "name": "ancient evil"
+      },
+      {
+        "id": "340437",
+        "name": "azrael"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "1241752",
+    "keywords": [
+      {
+        "id": "155262",
+        "name": "threesome"
+      },
+      {
+        "id": "158718",
+        "name": "lgbt"
+      },
+      {
+        "id": "321739",
+        "name": "sexy"
+      },
+      {
+        "id": "325128",
+        "name": "bl"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "728949",
+    "keywords": [
+      {
+        "id": "818",
+        "name": "based on novel or book"
+      },
+      {
+        "id": "4232",
+        "name": "melancholy"
+      },
+      {
+        "id": "8201",
+        "name": "satire"
+      },
+      {
+        "id": "156597",
+        "name": "magic realism"
+      },
+      {
+        "id": "170189",
+        "name": "suburbanite"
+      },
+      {
+        "id": "176227",
+        "name": "motherhood"
+      },
+      {
+        "id": "224636",
+        "name": "horror comedy"
+      },
+      {
+        "id": "259376",
+        "name": "playful"
+      },
+      {
+        "id": "283085",
+        "name": "body horror"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  },
+  {
+    "id": "157336",
+    "keywords": [
+      {
+        "id": "10084",
+        "name": "rescue"
+      },
+      {
+        "id": "2964",
+        "name": "future"
+      },
+      {
+        "id": "1612",
+        "name": "spacecraft"
+      },
+      {
+        "id": "4776",
+        "name": "race against time"
+      },
+      {
+        "id": "310",
+        "name": "artificial intelligence (a.i.)"
+      },
+      {
+        "id": "1432",
+        "name": "nasa"
+      },
+      {
+        "id": "1521",
+        "name": "time warp"
+      },
+      {
+        "id": "4565",
+        "name": "dystopia"
+      },
+      {
+        "id": "1963",
+        "name": "expedition"
+      },
+      {
+        "id": "3801",
+        "name": "space travel"
+      },
+      {
+        "id": "3417",
+        "name": "wormhole"
+      },
+      {
+        "id": "4337",
+        "name": "famine"
+      },
+      {
+        "id": "4380",
+        "name": "black hole"
+      },
+      {
+        "id": "8056",
+        "name": "quantum mechanics"
+      },
+      {
+        "id": "10235",
+        "name": "family relationships"
+      },
+      {
+        "id": "9882",
+        "name": "space"
+      },
+      {
+        "id": "14544",
+        "name": "robot"
+      },
+      {
+        "id": "14626",
+        "name": "astronaut"
+      },
+      {
+        "id": "14760",
+        "name": "scientist"
+      },
+      {
+        "id": "33479",
+        "name": "single father"
+      },
+      {
+        "id": "154846",
+        "name": "farmer"
+      },
+      {
+        "id": "156039",
+        "name": "space station"
+      },
+      {
+        "id": "195114",
+        "name": "space adventure"
+      },
+      {
+        "id": "208757",
+        "name": "time paradox"
+      },
+      {
+        "id": "220800",
+        "name": "time-manipulation"
+      },
+      {
+        "id": "240303",
+        "name": "father daughter relationship"
+      },
+      {
+        "id": "269808",
+        "name": "introspective"
+      },
+      {
+        "id": "270088",
+        "name": "2060s"
+      },
+      {
+        "id": "272987",
+        "name": "cornfield"
+      },
+      {
+        "id": "290900",
+        "name": "time manipulation"
+      },
+      {
+        "id": "325775",
+        "name": "awestruck"
+      }
+    ],
+    "_class": "com.scheldule.movie.infra.database.documents.MovieKeywordsDocument"
+  }
+]
