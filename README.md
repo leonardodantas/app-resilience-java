@@ -5,13 +5,13 @@ Projeto desenvolvido com o objetivo de explorar e estudar as funcionalidades da 
 </p>
 
 
-### :hammer: Pré-requisitos
+### Pré-requisitos
 
 - IDE.
 - JDK 21.
 - Docker e Docker Compose
 
-### 🛠 Detalhes Tecnicos
+### Detalhes Tecnicos
 
 - Java 21
 - Arquitetura baseada em Clean Arch
@@ -40,6 +40,11 @@ docker-compose up --build
 #Acesse o seguinte endereço no navegador
 http://localhost:8089/swagger-ui/index.html
 ```
+## Resilience4J
+
+O Resilience4j é uma biblioteca leve, baseada em padrões de resiliência, projetada para ajudar a tornar aplicações mais robustas contra falhas transitórias, problemas de desempenho e outros comportamentos inesperados em sistemas distribuídos. Ele foi inspirado no projeto Netflix Hystrix e é frequentemente usado em aplicações Java modernas, especialmente com o Spring Boot.
+
+
 
 O Circuit Breaker (Disjuntor) é um padrão de design utilizado em sistemas distribuídos para aumentar a resiliência e a tolerância a falhas. Ele funciona como um mecanismo de proteção que monitora as chamadas entre serviços ou operações, interrompendo temporariamente as requisições a um serviço que está falhando ou apresentando problemas de desempenho.
 
@@ -63,8 +68,6 @@ Meio Aberto (Half-Open)
 Após o período de espera no estado "Aberto", o circuito entra em "Meio Aberto".
 Permite um número limitado de chamadas para verificar se o sistema se recuperou.
 Se as chamadas forem bem-sucedidas, o circuito volta ao estado "Fechado". Caso contrário, retorna ao estado "Aberto".
-
-O Resilience4j é uma biblioteca leve, baseada em padrões de resiliência, projetada para ajudar a tornar aplicações mais robustas contra falhas transitórias, problemas de desempenho e outros comportamentos inesperados em sistemas distribuídos. Ele foi inspirado no projeto Netflix Hystrix e é frequentemente usado em aplicações Java modernas, especialmente com o Spring Boot.
 
 
 Nesta aplicação, demonstramos o funcionamento de um Circuit Breaker. Quando a aplicação não consegue estabelecer uma conexão com o MongoDB, ela utiliza uma API externa como alternativa, garantindo que o cliente continue usufruindo de um funcionamento correto e estável. Além disso, foi configurado um limite de tempo para considerar uma resposta da base de dados como lenta, o que também aciona o uso da API externa como solução de contingência.
