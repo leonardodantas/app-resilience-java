@@ -1,3 +1,28 @@
+# APP-RESILIENCE-JAVA
+
+<p>
+Projeto desenvolvido com o objetivo de explorar e estudar as funcionalidades da biblioteca Resilience4j, com foco em implementar padrões de resiliência para aplicações distribuídas, como por exemplo, Circuit Breaker, Rate Limiter, Bulkhead, e Retry.
+</p>
+
+
+### :hammer: Pré-requisitos
+
+- IDE.
+- JDK 21.
+- Docker e Docker Compose
+
+### 🛠 Detalhes Tecnicos
+
+- Java 21
+- Arquitetura baseada em Clean Arch
+- Swagger
+- MongoDB
+- Docker e Docker Compose
+- Inserção de dados de forma automatica
+- Resilience4j
+- Spring Cloud
+
+
 O Circuit Breaker (Disjuntor) é um padrão de design utilizado em sistemas distribuídos para aumentar a resiliência e a tolerância a falhas. Ele funciona como um mecanismo de proteção que monitora as chamadas entre serviços ou operações, interrompendo temporariamente as requisições a um serviço que está falhando ou apresentando problemas de desempenho.
 
 Esse conceito é inspirado nos disjuntores elétricos, que cortam o fornecimento de energia para evitar sobrecarga e danos. Em sistemas de software, o objetivo é proteger os recursos e evitar que falhas em um componente afetem todo o sistema.
