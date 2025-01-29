@@ -128,6 +128,15 @@ curl -X 'GET' \
 ```
 
 A primeira fase do circuit breaker é ele fechado, todas as chamadas sao permitidas e podemos visualizar esse comportamento via console da propria ide
+
 Para visualizarmos o circuit breaker aberto, basta apenas para o container do docker, pois nesse caso teremos o cenario onde a nossa fonte primaria de dados ficará indisponivel, para isso basta apenas listarmos os containers com o comando docker container ps e logo em seguinte para o container com o comando docker container stop <id container>
+
+Até que os requisitos de configurações sejam atigindos, a aplicação tentara acessar o mongo db, porem após atingimento das configurações, o circuito sera aberto e apos isso todas as requisições serão redirecionadas para o fallback automaticamente
+
+Durante o periodo que o circuito estiver aberto, apos um numero configuravel de requisições, o circuito mudara para o estado meio aberto, onde a api tentara acessar novamente o mongo db de acordo com uma quantidade de requisições configuraveis
+
+Caso não tenha sucesso o circuito continuara fechado.
+
+Podemos alterar e testar o comportamento do circuito inicializando e parando o container durante toda a execução.
 
     
