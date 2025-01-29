@@ -100,9 +100,9 @@ Utilizamos as seguintes configurações para o circuit breaker:
 
 ## Funcionamento do Circuit Breaker
 
-- Para visualizar o funcionamento do Circuit Breaker, é necessário iniciar a aplicação e os contêineres do Docker Compose utilizando os comandos descritos anteriormente.
+Para visualizar o funcionamento do Circuit Breaker, é necessário iniciar a aplicação e os contêineres do Docker Compose utilizando os comandos descritos anteriormente.
 
-- Em seguida, basta acessar o endpoint que lista todos os filmes presentes na base de dados.
+Em seguida, basta acessar o endpoint que lista todos os filmes presentes na base de dados.
 
 ```
   GET /v1/movies?size=20&page=1
@@ -116,7 +116,7 @@ curl -X 'GET' \
   -H 'accept: */*'
 ```
 
-- Copie o ID de um dos filmes listados e utilize-o para buscar os detalhes do filme no endpoint correspondente.
+Copie o ID de um dos filmes listados e utilize-o para buscar os detalhes do filme no endpoint correspondente.
 
 ```
   GET /v1/movies/{id do filme}/details
