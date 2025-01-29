@@ -1,9 +1,6 @@
 # APP-RESILIENCE-JAVA
 
-<p>
 Este projeto foi desenvolvido com o objetivo de explorar e estudar as funcionalidades da biblioteca Resilience4j, com foco na implementação de padrões de resiliência para aplicações distribuídas. Entre os padrões estão **Circuit Breaker**, **Rate Limiter**, **Bulkhead** e **Retry**, que ajudam a garantir a robustez e a estabilidade de sistemas em cenários de falhas ou instabilidades.
-</p>
-
 
 ### Pré-requisitos
 
