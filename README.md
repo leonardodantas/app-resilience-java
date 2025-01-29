@@ -96,4 +96,38 @@ Utilizamos as seguintes configurações para o circuit breaker:
 **slowCallRateThreshold: 10**
 - Percentual de chamadas lentas permitido. Se mais de 10% das chamadas forem lentas, o circuito será ativado.
 
+Para ver o funcionamento do circuit breaker, primeiro é necessario subir a aplicação e o docker compose com os comandos descritos acima.
+
+Logo depois acessar o endpoint que lista todos os filmes que estão na base de dados:
+
+```
+  GET /lastday/cryptocurrency/summary
+```
+
+CURL de exemplo:
+
+```
+curl -X 'GET' \
+  'http://localhost:8080/lastday/cryptocurrency/summary' \
+  -H 'accept: application/json'
+```
+
+Copiar o id de algum filme e buscar o detalhe do filme utilizado o id no seguinte endpoint 
+
+
+```
+  GET /lastday/cryptocurrency/summary
+```
+
+CURL de exemplo:
+
+```
+curl -X 'GET' \
+  'http://localhost:8080/lastday/cryptocurrency/summary' \
+  -H 'accept: application/json'
+```
+
+A primeira fase do circuit breaker é ele fechado, todas as chamadas sao permitidas e podemos visualizar esse comportamento via console da propria ide
+Para visualizarmos o circuit breaker aberto, basta apenas para o container do docker, pois nesse caso teremos o cenario onde a nossa fonte primaria de dados ficará indisponivel, para isso basta apenas listarmos os containers com o comando docker container ps e logo em seguinte para o container com o comando docker container stop <id container>
+
     
