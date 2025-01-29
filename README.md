@@ -53,17 +53,19 @@ Esse conceito é inspirado nos disjuntores elétricos, que cortam o fornecimento
 
 O Circuit Breaker pode estar em um dos seguintes três estados:
 
-Fechado (Closed)
+#### Fechado (Closed)
 
 Todas as chamadas são permitidas.
 O sistema está funcionando normalmente.
 Se ocorrerem erros ou chamadas lentas, essas são monitoradas.
-Aberto (Open)
+
+#### Aberto (Open)
 
 Todas as chamadas são bloqueadas automaticamente.
 O sistema detectou um número elevado de falhas ou chamadas lentas e "abriu o circuito" para evitar novas chamadas por um período configurado (tempo de espera).
 Durante este estado, as chamadas são imediatamente respondidas com um erro ou redirecionadas para um método de fallback.
-Meio Aberto (Half-Open)
+
+#### Meio Aberto (Half-Open)
 
 Após o período de espera no estado "Aberto", o circuito entra em "Meio Aberto".
 Permite um número limitado de chamadas para verificar se o sistema se recuperou.
@@ -96,47 +98,72 @@ Utilizamos as seguintes configurações para o circuit breaker:
 **slowCallRateThreshold: 10**
 - Percentual de chamadas lentas permitido. Se mais de 10% das chamadas forem lentas, o circuito será ativado.
 
-Para ver o funcionamento do circuit breaker, primeiro é necessario subir a aplicação e o docker compose com os comandos descritos acima.
 
-Logo depois acessar o endpoint que lista todos os filmes que estão na base de dados:
+## Funcionamento do Circuit Breaker
 
-```
-  GET /lastday/cryptocurrency/summary
-```
+- Para ver o funcionamento do circuit breaker, primeiro é necessario subir a aplicação e o docker compose com os comandos descritos acima.
 
-CURL de exemplo:
+- Logo depois acessar o endpoint que lista todos os filmes que estão na base de dados:
 
 ```
-curl -X 'GET' \
-  'http://localhost:8080/lastday/cryptocurrency/summary' \
-  -H 'accept: application/json'
-```
-
-Copiar o id de algum filme e buscar o detalhe do filme utilizado o id no seguinte endpoint 
-
-
-```
-  GET /lastday/cryptocurrency/summary
+  GET /v1/movies?size=20&page=1
 ```
 
 CURL de exemplo:
 
 ```
 curl -X 'GET' \
-  'http://localhost:8080/lastday/cryptocurrency/summary' \
-  -H 'accept: application/json'
+  'http://localhost:8090/v1/movies?size={tamanho}&page={pagina}' \
+  -H 'accept: */*'
 ```
 
-A primeira fase do circuit breaker é ele fechado, todas as chamadas sao permitidas e podemos visualizar esse comportamento via console da propria ide
+- Copiar o id de algum filme e buscar o detalhe do filme utilizado o id no seguinte endpoint 
 
-Para visualizarmos o circuit breaker aberto, basta apenas para o container do docker, pois nesse caso teremos o cenario onde a nossa fonte primaria de dados ficará indisponivel, para isso basta apenas listarmos os containers com o comando docker container ps e logo em seguinte para o container com o comando docker container stop <id container>
 
-Até que os requisitos de configurações sejam atigindos, a aplicação tentara acessar o mongo db, porem após atingimento das configurações, o circuito sera aberto e apos isso todas as requisições serão redirecionadas para o fallback automaticamente
+```
+  GET /v1/movies/{id do filme}/details
+```
 
-Durante o periodo que o circuito estiver aberto, apos um numero configuravel de requisições, o circuito mudara para o estado meio aberto, onde a api tentara acessar novamente o mongo db de acordo com uma quantidade de requisições configuraveis
+CURL de exemplo:
 
-Caso não tenha sucesso o circuito continuara fechado.
+```
+curl -X 'GET' \
+  'http://localhost:8090/v1/movies/1214667/details' \
+  -H 'accept: */*'
+```
 
-Podemos alterar e testar o comportamento do circuito inicializando e parando o container durante toda a execução.
+- A primeira fase do circuit breaker é ele fechado, todas as chamadas sao permitidas e podemos visualizar esse comportamento via console da propria ide
+
+- Para visualizarmos o circuit breaker aberto, basta apenas para o container do docker, pois nesse caso teremos o cenario onde a nossa fonte primaria de dados ficará indisponivel, para isso basta apenas listarmos os containers com o comando ***docker container ps*** e logo em seguinte para o container com o comando ***docker container stop <id container>***
+
+- Até que os requisitos de configurações sejam atigindos, a aplicação tentara acessar o mongo db, porem após atingimento das configurações, o circuito sera aberto e apos isso todas as requisições serão redirecionadas para o fallback automaticamente
+
+- Durante o periodo que o circuito estiver aberto, apos um numero configuravel de requisições, o circuito mudara para o estado meio aberto, onde a api tentara acessar novamente o mongo db de acordo com uma quantidade de requisições configuraveis
+
+- Caso não tenha sucesso o circuito continuara fechado.
+
+- Podemos alterar e testar o comportamento do circuito inicializando e parando o container durante toda a execução.
+
+## Tecnologias
+
+<div style="display: inline_block">
+  <img align="center" alt="java" src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white" />
+  <img align="center" alt="spring" src="https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white" />
+  <img align="center" alt="swagger" src="https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white" />
+  <img align="center" alt="docker" src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" />
+  <img align="center" alt="mongodb" src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" />
+</div>
+
+### :sunglasses: Autor
+
+Criado por Leonardo Rodrigues Dantas.
+
+[![Linkedin Badge](https://img.shields.io/badge/-Leonardo-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/leonardo-rodrigues-dantas/)](https://www.linkedin.com/in/leonardo-rodrigues-dantas/)
+[![Gmail Badge](https://img.shields.io/badge/-leonardordnt1317@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:leonardordnt1317@gmail.com)](mailto:leonardordnt1317@gmail.com)
+
+## Licença
+
+Este projeto esta sobe a licença MIT.
+
 
     
