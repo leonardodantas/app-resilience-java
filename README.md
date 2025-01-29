@@ -1,7 +1,7 @@
 # APP-RESILIENCE-JAVA
 
 <p>
-Projeto desenvolvido com o objetivo de explorar e estudar as funcionalidades da biblioteca Resilience4j, com foco em implementar padrões de resiliência para aplicações distribuídas, como por exemplo, Circuit Breaker, Rate Limiter, Bulkhead, e Retry.
+Este projeto foi desenvolvido com o objetivo de explorar e estudar as funcionalidades da biblioteca Resilience4j, com foco na implementação de padrões de resiliência para aplicações distribuídas. Entre os padrões estão **Circuit Breaker**, **Rate Limiter**, **Bulkhead** e **Retry**, que ajudam a garantir a robustez e a estabilidade de sistemas em cenários de falhas ou instabilidades.
 </p>
 
 
@@ -38,7 +38,7 @@ docker-compose up --build
 # Inicie a aplicação com uma IDE
 
 #Acesse o seguinte endereço no navegador
-http://localhost:8089/swagger-ui/index.html
+http://localhost:8090/swagger-ui/index.html
 ```
 ### Resilience4J
 
@@ -46,36 +46,35 @@ O Resilience4j é uma biblioteca baseada em padrões de resiliência, projetada 
 
 ### Circuit Breaker
 
-O Circuit Breaker (Disjuntor) é um padrão de design utilizado em sistemas distribuídos para aumentar a resiliência e a tolerância a falhas. Ele funciona como um mecanismo de proteção que monitora as chamadas entre serviços ou operações, interrompendo temporariamente as requisições a um serviço que está falhando ou apresentando problemas de desempenho.
+O Circuit Breaker é um padrão de design utilizado em sistemas distribuídos para aumentar a resiliência e a tolerância a falhas. Ele funciona como um mecanismo de proteção que monitora as chamadas entre serviços ou operações, interrompendo temporariamente as requisições a um serviço que está falhando ou apresentando problemas de desempenho.
 
-Esse conceito é inspirado nos disjuntores elétricos, que cortam o fornecimento de energia para evitar sobrecarga e danos. Em sistemas de software, o objetivo é proteger os recursos e evitar que falhas em um componente afetem todo o sistema.
-
+Esse conceito é inspirado nos disjuntores elétricos, que cortam o fornecimento de energia para evitar sobrecarga e danos
 
 O Circuit Breaker pode estar em um dos seguintes três estados:
 
-#### Fechado (Closed)
+#### Fechado
 
 Todas as chamadas são permitidas.
 O sistema está funcionando normalmente.
 Se ocorrerem erros ou chamadas lentas, essas são monitoradas.
 
-#### Aberto (Open)
+#### Aberto
 
 Todas as chamadas são bloqueadas automaticamente.
-O sistema detectou um número elevado de falhas ou chamadas lentas e "abriu o circuito" para evitar novas chamadas por um período configurado (tempo de espera).
+O sistema detectou um número elevado de falhas ou chamadas lentas e "abriu o circuito" para evitar novas chamadas por um período configurado.
 Durante este estado, as chamadas são imediatamente respondidas com um erro ou redirecionadas para um método de fallback.
 
-#### Meio Aberto (Half-Open)
+#### Meio Aberto 
 
 Após o período de espera no estado "Aberto", o circuito entra em "Meio Aberto".
 Permite um número limitado de chamadas para verificar se o sistema se recuperou.
 Se as chamadas forem bem-sucedidas, o circuito volta ao estado "Fechado". Caso contrário, retorna ao estado "Aberto".
 
+### Exemplo no projeto
 
-Nesta aplicação, demonstramos o funcionamento de um Circuit Breaker. Quando a aplicação não consegue estabelecer uma conexão com o MongoDB, ela utiliza uma API externa como alternativa, garantindo que o cliente continue usufruindo de um funcionamento correto e estável. Além disso, foi configurado um limite de tempo para considerar uma resposta da base de dados como lenta, o que também aciona o uso da API externa como solução de contingência.
+Nesta aplicação, demonstramos o funcionamento de um Circuit Breaker. Quando a aplicação não consegue estabelecer uma conexão com o MongoDB, ela utiliza uma API externa como alternativa, garantindo que o cliente continue tendo um funcionamento correto e estável. Além disso, foi configurado um limite de tempo para considerar uma resposta da base de dados como lenta, o que também aciona o uso da API externa como solução de contingência.
 
 Utilizamos as seguintes configurações para o circuit breaker:
-
 
 **slidingWindowSize: 10**
 - Define o tamanho da janela deslizante usada para calcular métricas (sucessos e falhas). Aqui, a janela considera as últimas 10 chamadas.
@@ -101,9 +100,9 @@ Utilizamos as seguintes configurações para o circuit breaker:
 
 ## Funcionamento do Circuit Breaker
 
-- Para ver o funcionamento do circuit breaker, primeiro é necessario subir a aplicação e o docker compose com os comandos descritos acima.
+- Para visualizar o funcionamento do Circuit Breaker, é necessário iniciar a aplicação e os contêineres do Docker Compose utilizando os comandos descritos anteriormente.
 
-- Logo depois acessar o endpoint que lista todos os filmes que estão na base de dados:
+- Em seguida, basta acessar o endpoint que lista todos os filmes presentes na base de dados.
 
 ```
   GET /v1/movies?size=20&page=1
@@ -117,8 +116,7 @@ curl -X 'GET' \
   -H 'accept: */*'
 ```
 
-- Copiar o id de algum filme e buscar o detalhe do filme utilizado o id no seguinte endpoint 
-
+- Copie o ID de um dos filmes listados e utilize-o para buscar os detalhes do filme no endpoint correspondente.
 
 ```
   GET /v1/movies/{id do filme}/details
@@ -132,17 +130,40 @@ curl -X 'GET' \
   -H 'accept: */*'
 ```
 
-- A primeira fase do circuit breaker é ele fechado, todas as chamadas sao permitidas e podemos visualizar esse comportamento via console da propria ide
+### Funcionamento do Circuit Breaker no projeto
 
-- Para visualizarmos o circuit breaker aberto, basta apenas para o container do docker, pois nesse caso teremos o cenario onde a nossa fonte primaria de dados ficará indisponivel, para isso basta apenas listarmos os containers com o comando ***docker container ps*** e logo em seguinte para o container com o comando ***docker container stop <id container>***
+#### Estado Fechado
 
-- Até que os requisitos de configurações sejam atigindos, a aplicação tentara acessar o mongo db, porem após atingimento das configurações, o circuito sera aberto e apos isso todas as requisições serão redirecionadas para o fallback automaticamente
+Na primeira fase, o Circuit Breaker está fechado, permitindo todas as chamadas ao serviço. Esse comportamento pode ser visualizado diretamente no console da IDE.
 
-- Durante o periodo que o circuito estiver aberto, apos um numero configuravel de requisições, o circuito mudara para o estado meio aberto, onde a api tentara acessar novamente o mongo db de acordo com uma quantidade de requisições configuraveis
+#### Estado Aberto
+Para simular o estado aberto do Circuit Breaker, basta parar o contêiner do Docker. Isso criará um cenário em que a fonte primária de dados (MongoDB) ficará indisponível.
 
-- Caso não tenha sucesso o circuito continuara fechado.
+Para parar o contêiner, liste os contêineres em execução com o comando:
 
-- Podemos alterar e testar o comportamento do circuito inicializando e parando o container durante toda a execução.
+```
+docker container ps
+```
+
+Em seguida, pare o contêiner desejado com o comando:
+
+```
+docker container stop <id_do_container>
+```
+Enquanto o Circuit Breaker estiver aberto, a aplicação tentará acessar o MongoDB até que as configurações definidas sejam atingidas seja com limite de falhas ou lentidão.
+
+Após atingir esses limites, o circuito será aberto, e todas as requisições seguintes serão redirecionadas automaticamente para o fallback.
+
+#### Estado Meio Aberto
+
+Durante o período em que o circuito está aberto, após um número configurável de requisições, ele mudará para o estado meio aberto.
+
+Nesse estado, a aplicação tentará acessar o MongoDB novamente, mas apenas para uma quantidade limitada de requisições configuradas.
+
+Se as requisições forem bem-sucedidas, o circuito voltará ao estado fechado. Caso contrário, ele permanecerá aberto.
+
+#### Testado o comportamento
+É possível alterar e testar o comportamento do Circuit Breaker iniciando e parando o contêiner do MongoDB durante a execução da aplicação. Isso permite simular diferentes cenários de falha e recuperação.
 
 ## Tecnologias
 
