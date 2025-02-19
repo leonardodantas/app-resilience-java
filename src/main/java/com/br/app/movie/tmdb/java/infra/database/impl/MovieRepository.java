@@ -10,7 +10,6 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Repository;
 
-import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 
@@ -40,9 +39,8 @@ public class MovieRepository implements IMovieRepository {
     }
 
     @Override
-    public List<MovieBackdrops> findBackdrop(final String movieId) {
-        return movieBackdropsMongoRepository.findAllById(Collections.singleton(movieId))
-                .stream().map(movieMapper::convert).toList();
+    public Optional<MovieBackdrops> findBackdrop(final String movieId) {
+        return movieBackdropsMongoRepository.findById(movieId).map(movieMapper::convert);
     }
 
     @Override
