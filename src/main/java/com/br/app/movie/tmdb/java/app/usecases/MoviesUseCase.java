@@ -5,6 +5,7 @@ import com.br.app.movie.tmdb.java.app.integrations.IMovieIntegration;
 import com.br.app.movie.tmdb.java.app.respositories.IMovieRepository;
 import com.br.app.movie.tmdb.java.domain.*;
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
+import io.github.resilience4j.ratelimiter.annotation.RateLimiter;
 import io.github.resilience4j.timelimiter.annotation.TimeLimiter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -70,6 +71,7 @@ public class MoviesUseCase {
         });
     }
 
+    @RateLimiter(name = "movieKeywordsRateLimiter")
     public MovieKeywords findMovieKeywords(final String movieId) {
         log.info("Find keywords movie {}", movieId);
         return movieRepository.findMovieKeywords(movieId)
