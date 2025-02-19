@@ -37,6 +37,12 @@ resilience4j:
     instances:
       movieBackdropsTimeLimiter:
         timeoutDuration: 1s
+  ratelimiter:
+    instances:
+      movieKeywordsRateLimiter:
+        limitForPeriod: 10
+        limitRefreshPeriod: 20s
+        timeoutDuration: 2s
 logging:
   level:
     io.github.resilience4j: DEBUG
