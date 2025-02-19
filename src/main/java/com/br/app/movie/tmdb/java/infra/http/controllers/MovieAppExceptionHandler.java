@@ -17,6 +17,10 @@ public class MovieAppExceptionHandler {
 
     @ExceptionHandler(Exception.class)
     public ResponseEntity<ErrorResponse> handleGenericException(final Exception ex, final WebRequest request) {
+
+        if(ex.getCause() instanceof ResourceNotFoundException) {
+            return ResponseEntity.notFound().build();
+        }
         final var response = new ErrorResponse(LocalDateTime.now(), HttpStatus.INTERNAL_SERVER_ERROR.value(), "Internal Server Error", ex.getMessage(), request.getDescription(false));
         return ResponseEntity.internalServerError().body(response);
     }

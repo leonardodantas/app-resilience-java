@@ -11,7 +11,7 @@ public interface IMovieRepository {
 
     Optional<MovieDetail> findMovieDetail(final String movieId);
 
-    List<MovieBackdrops> findBackdrop(final String movieId);
+    Optional<MovieBackdrops> findBackdrop(final String movieId);
 
     Optional<MovieKeywords> findMovieKeywords(final String movieId);
 

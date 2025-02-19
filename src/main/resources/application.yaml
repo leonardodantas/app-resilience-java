@@ -1,4 +1,9 @@
 spring:
+  cache:
+    type: caffeine
+    cache-names: moviesCache
+    caffeine:
+      spec: maximumSize=10,expireAfterWrite=60s
   data:
     mongodb:
       auto-index-creation: true
@@ -18,7 +23,7 @@ server:
 resilience4j:
   circuitbreaker:
     instances:
-      movieIdCircuitBreaker:
+      movieDetailCircuitBreaker:
         slidingWindowSize: 10
         failureRateThreshold: 50
         waitDurationInOpenState: 30s
@@ -28,6 +33,10 @@ resilience4j:
         slowCallRateThreshold: 10
         ignoreExceptions:
           - com.br.app.movie.tmdb.java.app.exceptions.ResourceNotFoundException
+  timelimiter:
+    instances:
+      movieBackdropsTimeLimiter:
+        timeoutDuration: 1s
 logging:
   level:
     io.github.resilience4j: DEBUG

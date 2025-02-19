@@ -5,11 +5,13 @@ import com.br.app.movie.tmdb.java.domain.*;
 import com.br.app.movie.tmdb.java.infra.http.mappers.MovieResponseMapper;
 import com.br.app.movie.tmdb.java.infra.http.responses.*;
 import lombok.RequiredArgsConstructor;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.concurrent.ExecutionException;
 
 @RestController
 @RequestMapping("v1/movies")
@@ -21,6 +23,7 @@ public class MoviesController {
 
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
+    @Cacheable(value = "moviesCache", key = "#size + '-' + #page")
     public PageMovieResponse findBySizeAndPage(@RequestParam(defaultValue = "20") final int size,
                                                @RequestParam(defaultValue = "1") final int page) {
         final Page<Movie> pageMovie = moviesUsecase.findMoviesBySizeAndPage(page, size);
@@ -36,9 +39,9 @@ public class MoviesController {
 
     @GetMapping("{movieId}/backdrops")
     @ResponseStatus(HttpStatus.OK)
-    public List<MovieBackdropsResponse> findBackdropsByMovieId(@PathVariable final String movieId) {
-        final List<MovieBackdrops> backdrops = moviesUsecase.findBackdrop(movieId);
-        return backdrops.stream().map(movieResponseMapper::convert).toList();
+    public MovieBackdropsResponse findBackdropsByMovieId(@PathVariable final String movieId) throws ExecutionException, InterruptedException {
+        final MovieBackdrops backdrops = moviesUsecase.findBackdrop(movieId).toCompletableFuture().get();
+        return movieResponseMapper.convert(backdrops);
     }
 
     @GetMapping("{movieId}/keywords")

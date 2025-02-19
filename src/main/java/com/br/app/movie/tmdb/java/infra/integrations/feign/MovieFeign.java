@@ -1,5 +1,6 @@
 package com.br.app.movie.tmdb.java.infra.integrations.feign;
 
+import com.br.app.movie.tmdb.java.infra.integrations.jsons.MovieBackdropsResponse;
 import com.br.app.movie.tmdb.java.infra.integrations.jsons.MovieDetailResponse;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -11,8 +12,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface MovieFeign {
 
     @RequestMapping(method = RequestMethod.GET, value = "/movie/{movieId}")
-    MovieDetailResponse findByMovieId(
+    MovieDetailResponse findMovieDetailByMovieId(
             @PathVariable final String movieId,
             @RequestParam(value = "include_video") final boolean includeVideo,
             @RequestParam(value = "language") final String language);
+
+    @RequestMapping(method = RequestMethod.GET, value = "/movie/{movieId}/images")
+    MovieBackdropsResponse findMovieBackdropsByMovieId(@PathVariable final String movieId);
 }
