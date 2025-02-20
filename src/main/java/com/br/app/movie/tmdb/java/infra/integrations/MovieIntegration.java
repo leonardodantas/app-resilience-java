@@ -4,14 +4,15 @@ import com.br.app.movie.tmdb.java.app.integrations.IMovieIntegration;
 import com.br.app.movie.tmdb.java.config.TmdbConfigProperties;
 import com.br.app.movie.tmdb.java.domain.MovieBackdrops;
 import com.br.app.movie.tmdb.java.domain.MovieDetail;
+import com.br.app.movie.tmdb.java.domain.MovieRecommended;
 import com.br.app.movie.tmdb.java.infra.integrations.feign.MovieFeign;
 import com.br.app.movie.tmdb.java.infra.integrations.jsons.MovieBackdropsResponse;
 import com.br.app.movie.tmdb.java.infra.integrations.jsons.MovieDetailResponse;
+import com.br.app.movie.tmdb.java.infra.integrations.jsons.PageMovieRecommendedResponse;
 import com.br.app.movie.tmdb.java.infra.integrations.mappers.MovieConverter;
 import feign.FeignException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import org.springframework.web.util.UriComponentsBuilder;
 
 import java.util.List;
 import java.util.Optional;
@@ -44,12 +45,16 @@ public class MovieIntegration implements IMovieIntegration {
         }
     }
 
-    private String getURI(final String movieId) {
-        return UriComponentsBuilder.fromUriString("/movie/{movieId}")
-                .queryParam("include_video", tmdbConfigProperties.isIncludeVideo())
-                .queryParam("language", tmdbConfigProperties.getLanguage())
-                .buildAndExpand(movieId)
-                .toUriString();
+    @Override
+    public List<MovieRecommended> findMovieRecommended(final String movieId) {
+        try {
+            final PageMovieRecommendedResponse moviesRecommended = movieFeign.findMovieRecommendedByMovieId(movieId);
+
+            return moviesRecommended.results().stream().map(movieConverter::convertRecommended).toList();
+
+        } catch (final FeignException feignException) {
+            return List.of();
+        }
     }
 
 }

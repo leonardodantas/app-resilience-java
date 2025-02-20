@@ -43,6 +43,11 @@ resilience4j:
         limitForPeriod: 10
         limitRefreshPeriod: 20s
         timeoutDuration: 2s
+  retry:
+    instances:
+      movieRecommendedRetry:
+        maxAttempts: 3
+        waitDuration: 2s
 logging:
   level:
     io.github.resilience4j: DEBUG
