@@ -1,7 +1,9 @@
 package com.br.app.movie.tmdb.java.config;
 
 import com.br.app.movie.tmdb.java.infra.database.documents.*;
+import lombok.Getter;
 
+@Getter
 public enum Documents {
 
     MOVIE_DOCUMENT(MovieDocument.class, "movies"),
@@ -18,11 +20,4 @@ public enum Documents {
         this.collectionName = collectionName;
     }
 
-    public Class<?> getClazzDocument() {
-        return clazzDocument;
-    }
-
-    public String getCollectionName() {
-        return collectionName;
-    }
 }
