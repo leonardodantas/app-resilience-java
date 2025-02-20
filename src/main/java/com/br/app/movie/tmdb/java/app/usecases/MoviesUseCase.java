@@ -11,7 +11,6 @@ import io.github.resilience4j.timelimiter.annotation.TimeLimiter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cache.annotation.Cacheable;
-import org.springframework.context.ApplicationContext;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
 
@@ -26,8 +25,6 @@ public class MoviesUseCase {
 
     private final IMovieRepository movieRepository;
     private final IMovieIntegration movieClient;
-
-    private final ApplicationContext applicationContext;
 
     @Cacheable(value = "moviesCache", key = "#page + '-' + #size")
     public Page<Movie> findMoviesBySizeAndPage(final int page, final int size) {
