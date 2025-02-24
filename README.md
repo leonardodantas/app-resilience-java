@@ -164,9 +164,32 @@ Se as requisições forem bem-sucedidas, o circuito voltará ao estado fechado. 
 O Time Limiter é um padrão utilizado em sistemas distribuídos que tem como objetivo garantir que as requisições realizadas não ultrapassem um tempo máximo de execução pré-definido em uma configuração. Com ele, conseguimos interromper uma operação automaticamente e estabelecer uma função de fallback para garantir que o usuário não será afetado e o sistema continuará funcionando dentro do esperado.
 
 ### Funcionamento Time Limiter no projeto
+
 Nesse projeto, foi configurado um tempo máximo de resposta esperado em 1s. A configuração está disponível no arquivo **properties.yaml** do projeto, com o nome **timeoutDuration**. Ao acessar a base de dados, caso o tempo máximo configurado seja ultrapassado, a função de fallback é acionada e, com isso, os dados esperados são buscados de uma API externa.
+
 #### Testado o comportamento
 É possível alterar e testar o comportamento do Circuit Breaker iniciando e parando o contêiner do MongoDB durante a execução da aplicação. Isso permite simular diferentes cenários de falha e recuperação.
+
+## Rate Limiter
+
+O Rate Limiter é um mecanismo de defesa utilizado em sistemas distribuídos que tem como objetivo limitar a quantidade de requisições que um endpoint pode receber durante um determinado período de tempo. Com ele, conseguimos evitar que o sistema seja sobrecarregado ou utilizado de forma inadequada, garantindo estabilidade e segurança ao sistema.
+
+### Funcionamento Rate Limiter no projeto
+
+Nesse projeto, foi configurado um tempo máximo de resposta esperado em 1s. A configuração está disponível no arquivo **properties.yaml** do projeto, com o nome **timeoutDuration**. Ao acessar a base de dados, caso o tempo máximo configurado seja ultrapassado, a função de fallback é acionada e, com isso, os dados esperados são buscados de uma API externa.
+
+#### Testado o comportamento
+
+Nesse projeto foi utilizado as seguintes configurações de Rate Limiter:
+
+**limitForPeriod: 10**
+- Limite de requisições permitidas.
+
+**limitRefreshPeriod: 20s**
+- Após 20 segundos o limite do Rate Limiter será zerado e o contador voltará ao estado inicial.
+
+**timeoutDuration: 2s**
+- Limite máximo que o sistema esperará para que a execução seja finalizada ou um erro seja retornado.
 
 ## Tecnologias
 
