@@ -95,7 +95,7 @@ Utilizamos as seguintes configurações para o circuit breaker:
 - Percentual de chamadas lentas permitido. Se mais de 10% das chamadas forem lentas, o circuito será ativado.
 
 
-## Funcionamento do Circuit Breaker
+### Funcionamento do Circuit Breaker
 
 Para visualizar o funcionamento do Circuit Breaker, é necessário iniciar a aplicação e os contêineres do Docker Compose utilizando os comandos descritos anteriormente.
 
