@@ -41,7 +41,7 @@ http://localhost:8090/swagger-ui/index.html
 
 O Resilience4j é uma biblioteca baseada em padrões de resiliência, projetada para ajudar a tornar aplicações mais robustas contra falhas transitórias, problemas de desempenho e outros comportamentos inesperados em sistemas distribuídos.
 
-### Circuit Breaker
+## Circuit Breaker
 
 O Circuit Breaker é um padrão de design utilizado em sistemas distribuídos para aumentar a resiliência e a tolerância a falhas. Ele funciona como um mecanismo de proteção que monitora as chamadas entre serviços ou operações, interrompendo temporariamente as requisições a um serviço que está falhando ou apresentando problemas de desempenho.
 
