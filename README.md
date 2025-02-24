@@ -159,6 +159,12 @@ Nesse estado, a aplicação tentará acessar o MongoDB novamente, mas apenas par
 
 Se as requisições forem bem-sucedidas, o circuito voltará ao estado fechado. Caso contrário, ele permanecerá aberto.
 
+## Time Limiter
+
+O Time Limiter é um padrão utilizado em sistemas distribuídos que tem como objetivo garantir que as requisições realizadas não ultrapassem um tempo máximo de execução pré-definido em uma configuração. Com ele, conseguimos interromper uma operação automaticamente e estabelecer uma função de fallback para garantir que o usuário não será afetado e o sistema continuará funcionando dentro do esperado.
+
+### Funcionamento Time Limiter no projeto
+Nesse projeto, foi configurado um tempo máximo de resposta esperado em 1s. A configuração está disponível no arquivo **properties.yaml** do projeto, com o nome **timeoutDuration**. Ao acessar a base de dados, caso o tempo máximo configurado seja ultrapassado, a função de fallback é acionada e, com isso, os dados esperados são buscados de uma API externa.
 #### Testado o comportamento
 É possível alterar e testar o comportamento do Circuit Breaker iniciando e parando o contêiner do MongoDB durante a execução da aplicação. Isso permite simular diferentes cenários de falha e recuperação.
 
