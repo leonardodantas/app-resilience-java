@@ -176,7 +176,7 @@ O Rate Limiter é um mecanismo de defesa utilizado em sistemas distribuídos que
 
 ### Funcionamento Rate Limiter no projeto
 
-Nesse projeto, foi configurado um tempo máximo de resposta esperado em 1s. A configuração está disponível no arquivo **properties.yaml** do projeto, com o nome **timeoutDuration**. Ao acessar a base de dados, caso o tempo máximo configurado seja ultrapassado, a função de fallback é acionada e, com isso, os dados esperados são buscados de uma API externa.
+Nesse projeto configuramos que o limite de requisições permitidos é de no maximo 10, porem apos 20 segundos o contador é zerado. Caso aconteça algum indisponibilidade na base de dados, uma função de fallback é acionada e os dados são buscados em uma API externa.
 
 #### Testado o comportamento
 
