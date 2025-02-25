@@ -191,6 +191,25 @@ Nesse projeto foi utilizado as seguintes configurações de Rate Limiter:
 **timeoutDuration: 2s**
 - Limite máximo que o sistema esperará para que a execução seja finalizada ou um erro seja retornado.
 
+
+## Retry
+
+O Retry é utilizado para implementar a lógica de repetição automática de uma operação que pode falhar temporariamente. Com ela é possivel configurar quantas vezes uma ação deve ser repetiva em caso de falhas.
+
+### Funcionamento Retry no projeto
+
+Nesse projeto, configuramos que a função poderá ser repetida até 3 vezes, e o tempo de espera entre uma execução e outra será de 2 segundos. Além disso, foi desenvolvido um fallback para quando as retentativas de execução falharem.
+
+#### Testado o comportamento
+
+Nesse projeto foi utilizado as seguintes configurações do Retry:
+
+**maxAttempts: 3**
+- Quantidade de retentativas.
+
+**waitDuration: 2s**
+- Tempo de espera entre as execuções.
+
 ## Tecnologias
 
 <div style="display: inline_block">
